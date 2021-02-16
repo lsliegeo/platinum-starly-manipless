@@ -33,18 +33,23 @@ class Starly:
         self.exp_remaining = exp_to_next_lvl(self.lvl)
         self.evs = [0, 0, 0, 0, 0, 0]
         self.file = file
+        self.opponents = []
         file.write(f'\n{start_lvl}:\n')
         self.print()
 
     # write evs at the start of current level
     def print(self):
-        return self.file.write(f'   {self.lvl} -> {", ".join([str(ev) for ev in self.evs])}\n')
+        self.file.write(f'   {self.lvl} -> {", ".join([str(ev) for ev in self.evs])}')
+        if self.opponents:
+            self.file.write(f' # {", ".join(self.opponents)}')
+        self.file.write('\n')
 
     def check_lvl_up(self):
         if self.exp_remaining <= 0:
             self.lvl += 1
             self.exp_remaining += exp_to_next_lvl(self.lvl)
             self.print()
+            self.opponents.clear()
 
     # force the current level and throw away any remaining exp, in order to simulate rare candies
     def force(self, target_lvl):
@@ -59,6 +64,7 @@ class Starly:
         exp, evs = data[other_poke_name]
         self.exp_remaining -= floor(exp * other_poke_lvl * 1.5 / 7 * (0.5 if shared else 1))
         self.evs = [x + y for x, y in zip(self.evs, evs)]
+        self.opponents.append(other_poke_name)
         self.check_lvl_up()
 
 # open main route file
