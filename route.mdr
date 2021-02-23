@@ -888,6 +888,7 @@ Enter Pokemon Cafe
 
 :::::::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
 ## Skip Fist Plate strats
+  ![Heracross trainer](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/fist-plate-optional.png)
   :::::trainer[Collector Fernando]
     :::pokemon[Heracross]
     - Wing Attack
