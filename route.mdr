@@ -202,10 +202,10 @@ TODO: return ranges with known friendship levels
 ## Before you start
 
 1. Read the FAQ (V2 Changelog included!)
-2. Watch this video on spinner passing: [https://youtu.be/AQRMydButHQ](https://youtu.be/AQRMydButHQ). This should be your #1 priority to practice before a run.
+2. Watch this video on spinner passing: [https://youtu.be/AQRMydButHQ](AQRMydButHQ). This should be your #1 priority to practice before a run.
 3. Open the IV Calculator by clicking here
-4. You can follow along with this video while learning [https://youtu.be/J0fRpVkn_Mk](https://youtu.be/J0fRpVkn_Mk)
-5. Hishato made images for all the movement in the run, recommend having [this guide](https://docs.google.com/document/d/1S5FdbsPsXzCooo-8tmslamsV9UqlFeb0RqSwd69rVP8/edit?usp=sharing) open if you're new! 
+4. You can follow along with this video while learning [https://youtu.be/J0fRpVkn_Mk](J0fRpVkn_Mk)
+5. Hishato made images for all the movement in the run, recommend having [this guide](edit?usp=sharing) open if you're new! 
 
 Set date to 01/01 (year doesn't matter), time to 2AM-ish.
 - You want to be on set so that you get to Veilstone before 4AM, but get to Celestic town the second time after 4AM.
@@ -271,7 +271,7 @@ Tackle to yellow HP before trying to catch.
 
 Pick up Stardust before entering Jubilife
 
-![Hidden Stardust](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/stardust.png)
+![Hidden Stardust](stardust.png)
 
 
 ## Jubilife City
@@ -320,7 +320,7 @@ Once you enter the mine:
 
 **(Recommended) Grab Super Potion outside of Mine by talking to miner**
 
-![Miner Super Potion](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/super-potion-miner.png)
+![Miner Super Potion](super-potion-miner.png)
 
 
 ## Oreburgh Gym
@@ -374,7 +374,7 @@ Right vendor
 
 **Get Dusk Ball from girl on 2nd floor of the last building you pass while leaving Oreburgh**
 
-![Dusk Ball](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/dusk-ball.png)
+![Dusk Ball](dusk-ball.png)
 
 Head back through cave.
 
@@ -533,7 +533,7 @@ Menu before the grass:
 
 Grab X Sp Def near the hiker (you have to pass this spinner three times, be careful!)
 
-![X Sp Def](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/sp-def.png)
+![X Sp Def](sp-def.png)
 
 :::::::trainer[Hiker Daniel (spinner)]
   :info[Strategy in case you hit the spinner]{color=pink}
@@ -592,7 +592,7 @@ Menu before far left side of the grass:
 **If you didn't catch Psyduck**: Grab this Net Ball
 :::
 
-![Net Ball](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/net-ball.png)
+![Net Ball](net-ball.png)
 
 If you have no super potions, pick up the one behind the gym
 
@@ -675,7 +675,7 @@ Off to Galactic HQ
   :::::
 :::::::
 
-![Scientist](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/scientist-eterna.png)
+![Scientist](scientist-eterna.png)
 
 After the fight, go up the stairs next to him and grab the revive on the right after you go up the stairs.
 
@@ -714,15 +714,15 @@ Repel when it runs out
 
 Back to town, consider grabbing Oran berries for Endeavor setups, go south
 
-![Oran Berries](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/oran-berries.png)
+![Oran Berries](oran-berries.png)
 
 
 ## Route 207
 
 Get hidden Rare Candy and revive
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-207.png)
-![Hidden Revive](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/revive-207.png)
+![Hidden Rare Candy](candy-207.png)
+![Hidden Revive](revive-207.png)
 
 Menu during spinner pass:
 - Revive Turtwig if dead
@@ -734,7 +734,7 @@ Menu during spinner pass:
 
 Once you enter grab the 2nd hidden Revive
 
-![Hidden Revive](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/revive-coronet.png)
+![Hidden Revive](revive-coronet.png)
 
 
 ## Route 208
@@ -865,7 +865,7 @@ Note: Green Joggers can't see you at night
 
 Go up the ledge, move around and get this Ether in the middle
 
-![Hidden Ether](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/ether-209.png)
+![Hidden Ether](ether-209.png)
 
 Menu at grass:
 - Swap Staravia to slot 1
@@ -882,14 +882,14 @@ Go up, the jogging double trainers won't fight you.
 
 Bike past double (can't see you). Go into tall grass, get this Candy, then up to the cafe.
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-210.png)
+![Hidden Rare Candy](candy-210.png)
 
 Enter Pokemon Cafe
 - Buy dozen MooMoo milks at the cafe counter
 
 :::::::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
 ## Skip Fist Plate strats
-  ![Heracross trainer](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/fist-plate-optional.png)
+  ![Heracross trainer](fist-plate-optional.png)
   :::::trainer[Collector Fernando]
     :::pokemon[Heracross]
     - Wing Attack
@@ -927,11 +927,11 @@ You will pick up Fist Plate later
 
 Get this Max Ether.
 
-![Max Ether](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/max-ether-215.png)
+![Max Ether](max-ether-215.png)
 
 Grab this Revive.
 
-![Hidden Revive](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/revive-215.png)
+![Hidden Revive](revive-215.png)
 
 :::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
 **Skip Fist Plate strats**
@@ -944,7 +944,7 @@ Pass the spinner and go through the grass
 
 Cut the tree after the bridge and fight this trainer to pick up the Fist Plate item below him
 
-![Fist Plate](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/fist-plate.png)
+![Fist Plate](fist-plate.png)
 ::::
 
 :::card{theme=warning}
@@ -962,7 +962,7 @@ Menu:
 
 Pick up the Iron before Ace Trainers
 
-![Hidden Iron](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/iron-215.png)
+![Hidden Iron](iron-215.png)
 
 :::::::trainer[Top Ace Trainer Maya]
   - Teach Aerial Ace over WA
@@ -1006,18 +1006,18 @@ Pick up the Iron before Ace Trainers
 Grab Star piece near warehouse (all the way north)<br>
 Pick up Calcium
 
-![Hidden Calcium](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/calcium-veilstone.png)
+![Hidden Calcium](calcium-veilstone.png)
 
 Grab Rare Candy (north)
 
-![Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-veilstone.png)
+![Rare Candy](candy-veilstone.png)
 
 **Get Porygon from guy in house furthest right of Department Store**
 - Do not nickname
 
 Get this PP Up
 
-![Hidden PP Up](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/pp-up-veilstone.png)
+![Hidden PP Up](pp-up-veilstone.png)
 
 :::::card{theme=neutral}
 ### Shopping
@@ -1120,7 +1120,7 @@ Head off to Warehouse, talk to Lucas to trigger the double.
 
 Go in and get Fly
 
-![Fly](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/fly.png)
+![Fly](fly.png)
 
 Buy 1000 coins from Game Corner, get Silk Scarf next door
 
@@ -1352,7 +1352,7 @@ Head left to Route 218
 
 Surf immediately above the bridge and get this Rare Candy
 
-![Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-218.png)
+![Rare Candy](candy-218.png)
 
 Surf all the way left, use bike to pass spinner
 
@@ -1615,11 +1615,11 @@ Head left to Route 211
 
 Grab Rare Candy behind 2 rock smash rocks (left of here)
 
-![Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-coronet-snow-1.png)
+![Rare Candy](candy-coronet-snow-1.png)
 
 Pick up this hidden Rare Candy before the 2nd floor stairs
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-coronet-snow-2.png)
+![Hidden Rare Candy](candy-coronet-snow-2.png)
 
 :::if{source="Starly" condition="speed=(0+ / -9 / x)"}
 Use 2 rare candies and Carbos now before the next fight
@@ -1742,7 +1742,7 @@ Take warp panels on left, and go below to avoid Scientist after going downstairs
 
 Get the Galactic Key (the Grunt beside it has no vision)
 
-![Galactic Key](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/galactic-key.png)
+![Galactic Key](galactic-key.png)
 
 Go outside and enter main building from the middle door
 
@@ -1862,11 +1862,11 @@ Go into the cave then go behind the Galactic grunt
 
 Get this Max Elixir on 5F between rocks
 
-![Hidden Max Elixir](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/max-elixir-coronet.png)
+![Hidden Max Elixir](max-elixir-coronet.png)
 
 Grab Full Restore behind the grunt (hidden), then talk to her from behind
 
-![Hidden Full Restore](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/full-restore-coronet.png)
+![Hidden Full Restore](full-restore-coronet.png)
 
 :::::::trainer[Galactic 1]
   :::::pokemon[Houndour]
@@ -1879,7 +1879,7 @@ Grab Full Restore behind the grunt (hidden), then talk to her from behind
 
 Pickup Rare Candy just below here
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-coronet-top.png)
+![Hidden Rare Candy](candy-coronet-top.png)
 
 :::::::trainer[Galactic 2]
   :::::pokemon[Glameow]
@@ -2154,7 +2154,7 @@ Menu when repel runs off:
 
 Grab this hidden Rare Candy
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-victory-road.png)
+![Hidden Rare Candy](candy-victory-road.png)
 
 :::::::trainer[Ace Trainer Omar]
   :::::pokemon[Mamoswine]
