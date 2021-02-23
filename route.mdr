@@ -1815,6 +1815,7 @@ Enter left portal
     :::pokemon[Golbat]
       - Return
       - 15/16 range at (x / 16-19 / x)
+    ::damage[Air Cutter (Sp Def)]{source="Starly" level=52 evolution=2 offensive=false opponentLevel=42 opponentStat=69 movePower=55 special=true stab=true}
     :::
     :::pokemon[Bronzor]
       - Return + (Full Heal if confused) + Return
@@ -1823,6 +1824,7 @@ Enter left portal
   :::::if{source="Starly" condition="atk=~(x / 16+ / 0+)" theme=neutral}
     :::pokemon[Golbat]
       - X Attack + (Full Heal if confused) + Return
+    ::damage[Air Cutter (Sp Def)]{source="Starly" level=52 evolution=2 offensive=false opponentLevel=42 opponentStat=69 movePower=55 special=true stab=true}
     :::
     :::pokemon[Bronzor]
       - Close Combat
@@ -2324,6 +2326,7 @@ This messes with the damage calcs, but lets you actually beat Flint
     - Return
     - If burned with Sunny Day: X Sp Def + Full Restore + Return
     - If burned without Sunny Day: Full Restore + Return
+    ::damage[Quick Attack (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=55 opponentStat=164 movePower=40 stab=false}
   :::::
 :::::::
 
@@ -2364,6 +2367,7 @@ x / 16+ / 0+   		 192-193   		100%
   :::::
   :::::pokemon[Bronzong]
     - Close Combat x2
+    ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
   :::::
 :::::::
 
