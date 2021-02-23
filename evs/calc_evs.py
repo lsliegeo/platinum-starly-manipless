@@ -50,6 +50,7 @@ class Starly:
             self.exp_remaining += exp_to_next_lvl(self.lvl)
             self.print()
             self.opponents.clear()
+            self.check_lvl_up() # multiple level ups in a row
 
     # force the current level and throw away any remaining exp, in order to simulate rare candies
     def force(self, target_lvl):
@@ -62,7 +63,7 @@ class Starly:
     # gain exp and evs for a defeated (trainer) pokemon
     def fight(self, other_poke_name, other_poke_lvl, shared=False):
         exp, evs = data[other_poke_name]
-        self.exp_remaining -= floor(exp * other_poke_lvl * 1.5 / 7 * (0.5 if shared else 1))
+        self.exp_remaining -= floor(floor(exp * other_poke_lvl / 7) * 1.5 * (0.5 if shared else 1))
         self.evs = [x + y for x, y in zip(self.evs, evs)]
         self.opponents.append(other_poke_name)
         self.check_lvl_up()
