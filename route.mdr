@@ -918,8 +918,8 @@ You will pick up Fist Plate later
   :::::pokemon[Shieldon]
     - (Substitute) + Endeavor + Return spam
     - Backup: Swap to Turtwig + Rock Smash spam
-    ::damage[Extrasensory (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
-    ::damage[Extrasensory (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
+    ::damage[Take Down (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
+    ::damage[Take Down (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
   :::::
 :::::::
 
@@ -1875,7 +1875,7 @@ Grab Full Restore behind the grunt (hidden), then talk to her from behind
 
 Pickup Rare Candy just below here
 
-![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-coronet.png)
+![Hidden Rare Candy](https://raw.githubusercontent.com/lsliegeo/platinum-starly-manipless/master/assets/candy-coronet-top.png)
 
 :::::::trainer[Galactic 2]
   :::::pokemon[Glameow]
