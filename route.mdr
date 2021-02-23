@@ -195,17 +195,17 @@
 # Pokemon Platinum Any% Manipless Glitchless Starly+
 
 Contact Etchy#0119 on Discord for questions/issues
+
 Credits to prabxz for the initial route and a lot of strats/ideas
 
 TODO: return ranges with known friendship levels
 
 ## Before you start
 
-1. Read the FAQ (V2 Changelog included!)
-2. Watch this video on spinner passing: [https://youtu.be/AQRMydButHQ](AQRMydButHQ). This should be your #1 priority to practice before a run.
-3. Open the IV Calculator by clicking here
-4. You can follow along with this video while learning [https://youtu.be/J0fRpVkn_Mk](J0fRpVkn_Mk)
-5. Hishato made images for all the movement in the run, recommend having [this guide](edit?usp=sharing) open if you're new! 
+1. Read the [**FAQ**](https://docs.google.com/document/d/1fqIYoi_89Db9awuvCxNATRhFC1SbLd3TtH56z5J7oRA/edit) (V2 Changelog included!)
+2. Watch this video on spinner passing: [**https://youtu.be/AQRMydButHQ**](https://youtu.be/AQRMydButHQ). This should be your #1 priority to practice before a run.
+3. You can follow along with this video while learning [**https://youtu.be/J0fRpVkn_Mk**](https://youtu.be/J0fRpVkn_Mk)
+4. Hishato made images for all the movement in the run, recommend having [**this guide**](https://docs.google.com/document/d/1S5FdbsPsXzCooo-8tmslamsV9UqlFeb0RqSwd69rVP8/edit) open if you're new! 
 
 Set date to 01/01 (year doesn't matter), time to 2AM-ish.
 - You want to be on set so that you get to Veilstone before 4AM, but get to Celestic town the second time after 4AM.
@@ -288,7 +288,7 @@ Get Clowns for the Poketch, off to Rival in the east
 :::::::trainer[Rival Barry]
   :::::pokemon[Starly]
     - Tackle spam
-    ::damage[Quick Attack does (Def)]{source="Turtwig" level=8 offensive=false opponentLevel=7 opponentStat=13 movePower=40 stab=true}
+    ::damage[Quick Attack (Def)]{source="Turtwig" level=8 offensive=false opponentLevel=7 opponentStat=13 movePower=40 stab=true}
   :::::
   :::::pokemon[Chimchar]
     - Swap to other Pokemon, heal Turtwig if possible, die, swap back to Turtwig, Tackle spam
@@ -2127,7 +2127,7 @@ Menu:
   :::::pokemon[Mantyke, Remoraid]
     - Return / Aerial Ace
   :::::
-  :::::[Mantine]
+  :::::pokemon[Mantine]
     - Return
   :::::
 :::::::
