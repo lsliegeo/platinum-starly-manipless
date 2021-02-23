@@ -1602,7 +1602,7 @@ Menu before the grass:
 - (Equip Choice Specs to Porygon)
 - Max Repel
 
-:::if{source="Starly" condition="speed=(0+ / -9 / x)"}
+:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
 Grab Carbos in the grass (not hidden)
 - Effectively adds 2 IVs to Speed.
 - The calculator doesn't take this into account.
@@ -1621,7 +1621,7 @@ Pick up this hidden Rare Candy before the 2nd floor stairs
 
 ![Hidden Rare Candy](candy-coronet-snow-2.png)
 
-:::if{source="Starly" condition="speed=(0+ / -9 / x)"}
+:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
 Use 2 rare candies and Carbos now before the next fight
 :::
 
