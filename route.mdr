@@ -72,124 +72,124 @@
 
 10:
    10 -> 0, 0, 0, 0, 0, 0
-   11 -> 1, 0, 1, 0, 0, 0 # kricketot, wurmple
-   12 -> 1, 0, 1, 0, 0, 1 # stunky
-   13 -> 1, 0, 1, 0, 0, 3 # zubat, zubat
-   14 -> 1, 0, 1, 0, 0, 5 # glameow, zubat
-   15 -> 1, 0, 1, 0, 0, 8 # zubat, purugly
-   16 -> 1, 0, 1, 0, 0, 9 # pachirisu
-   17 -> 2, 0, 3, 0, 0, 9 # wurmple, silcoon
-   18 -> 2, 0, 3, 4, 0, 9 # beautifly, abra
-   19 -> 2, 0, 3, 8, 0, 9 # abra, cherubi, roselia
-   20 -> 2, 0, 3, 10, 0, 9 # budew, budew
-   21 -> 2, 1, 3, 13, 0, 9 # budew, roselia, turtwig
-   22 -> 2, 1, 3, 18, 0, 9 # cherrim, roserade
-   23 -> 2, 1, 3, 20, 0, 10 # kadabra, zubat
-   24 -> 4, 1, 4, 20, 0, 10 # skuntank, nosepass
-   25 -> 4, 1, 4, 23, 2, 10 # duskull, haunter, mismagius
-   26 -> 4, 1, 4, 23, 2, 13 # staravia, buizel
-   27 -> 4, 1, 6, 26, 2, 14 # monferno, roselia, bronzor, shieldon
-   28 -> 4, 3, 6, 28, 2, 14 # heracross, roselia
-   29 -> 8, 3, 7, 29, 2, 15 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 8, 6, 7, 29, 2, 15 # croagunk, machoke
-   31 -> 8, 6, 7, 29, 2, 15
-   32 -> 8, 6, 7, 29, 2, 15
-   33 -> 8, 6, 7, 29, 2, 15
-   34 -> 8, 6, 7, 29, 2, 15
-   35 -> 8, 10, 7, 30, 2, 17 # meditite, machoke, lucario, zubat, croagunk
-   36 -> 9, 10, 7, 33, 2, 21 # zubat, stunky, chingling, drifloon, kirlia, staravia
-   37 -> 9, 10, 9, 36, 2, 24 # buizel, monferno, roselia, wingull, pelipper
-   38 -> 16, 12, 9, 38, 2, 25 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
-   39 -> 18, 14, 9, 38, 2, 27 # gyarados, floatzel, quagsire
-   40 -> 18, 18, 10, 40, 2, 28 # croagunk, aipom, grotle, girafarig, machoke
-   41 -> 21, 18, 10, 41, 2, 33 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
-   42 -> 21, 24, 10, 42, 2, 35 # murkrow, staraptor, heracross, infernape
-   43 -> 21, 24, 12, 45, 2, 37 # floatzel, roserade, steelix
-   44 -> 21, 24, 12, 45, 2, 37
-   45 -> 21, 26, 16, 47, 2, 37 # scizor, magnemite, magnemite, steelix, steelix
-   46 -> 21, 26, 23, 49, 2, 37 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
-   47 -> 21, 29, 24, 49, 2, 45 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
-   48 -> 23, 29, 25, 53, 2, 49 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
-   49 -> 23, 31, 25, 53, 2, 50 # buneary, seaking
-   50 -> 23, 31, 25, 53, 2, 50
-   51 -> 24, 33, 25, 55, 2, 54 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
-   52 -> 24, 35, 25, 55, 2, 65 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
-   53 -> 24, 39, 26, 56, 2, 68 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
-   54 -> 24, 42, 27, 56, 2, 78 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
-   55 -> 26, 43, 28, 58, 2, 83 # skuntank, bronzor, purugly, golbat, houndoom, weavile
-   56 -> 28, 47, 28, 58, 2, 87 # gyarados, honchkrow, crobat, wingull, gastrodon
-   57 -> 28, 53, 28, 61, 2, 93 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
-   58 -> 28, 60, 28, 63, 2, 100 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
-   59 -> 33, 63, 28, 67, 5, 100 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
-   60 -> 36, 74, 29, 68, 5, 100 # mamoswine, rampardos, mothim, clefable, torterra, machamp
-   61 -> 36, 78, 30, 72, 10, 100 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
-   62 -> 36, 86, 32, 75, 11, 102 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
-   63 -> 38, 89, 35, 79, 12, 103 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
-   64 -> 40, 96, 40, 79, 12, 103 # heracross, scizor, whiscash, golem, rhyperior, gliscor
-   65 -> 40, 99, 42, 85, 12, 106 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
-   66 -> 40, 99, 42, 85, 12, 106
-   67 -> 40, 99, 42, 85, 12, 106
-   68 -> 40, 102, 44, 92, 17, 106 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+   11 -> 0, 0, 0, 2, 0, 0 # budew, cherubi
+   12 -> 1, 0, 1, 2, 0, 0 # kricketot, wurmple
+   13 -> 1, 0, 1, 2, 0, 1 # stunky
+   14 -> 1, 0, 1, 2, 0, 4 # zubat, zubat, glameow
+   15 -> 1, 0, 1, 2, 0, 7 # zubat, purugly
+   16 -> 1, 0, 1, 2, 0, 7
+   17 -> 2, 0, 1, 2, 0, 8 # pachirisu, wurmple
+   18 -> 2, 0, 3, 5, 0, 8 # silcoon, beautifly
+   19 -> 2, 0, 3, 8, 0, 8 # abra, abra, cherubi
+   20 -> 2, 0, 3, 12, 0, 8 # roselia, budew, budew
+   21 -> 2, 0, 3, 15, 0, 8 # budew, roselia
+   22 -> 2, 1, 3, 20, 0, 8 # turtwig, cherrim, roserade
+   23 -> 2, 1, 3, 22, 0, 8 # kadabra
+   24 -> 4, 1, 4, 22, 0, 9 # zubat, skuntank, nosepass
+   25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
+   26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
+   27 -> 4, 1, 5, 28, 2, 13 # monferno, roselia, bronzor
+   28 -> 4, 3, 6, 30, 2, 13 # shieldon, heracross, roselia
+   29 -> 6, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel
+   30 -> 8, 6, 7, 31, 2, 14 # drifblim, croagunk, machoke
+   31 -> 8, 6, 7, 31, 2, 14
+   32 -> 8, 6, 7, 31, 2, 14
+   33 -> 8, 6, 7, 31, 2, 14
+   34 -> 8, 6, 7, 31, 2, 14
+   35 -> 8, 10, 7, 32, 2, 16 # meditite, machoke, lucario, zubat, croagunk
+   36 -> 9, 10, 7, 35, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
+   37 -> 9, 10, 9, 38, 2, 23 # buizel, monferno, roselia, wingull, pelipper
+   38 -> 16, 12, 9, 40, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
+   39 -> 18, 14, 9, 40, 2, 26 # gyarados, floatzel, quagsire
+   40 -> 18, 18, 10, 42, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
+   41 -> 21, 18, 10, 43, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
+   42 -> 21, 24, 10, 44, 2, 34 # murkrow, staraptor, heracross, infernape
+   43 -> 21, 24, 12, 47, 2, 36 # floatzel, roserade, steelix
+   44 -> 21, 24, 12, 47, 2, 36
+   45 -> 21, 26, 16, 49, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
+   46 -> 21, 26, 23, 51, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
+   47 -> 21, 29, 24, 51, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
+   48 -> 23, 29, 25, 55, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
+   49 -> 23, 31, 25, 55, 2, 49 # buneary, seaking
+   50 -> 23, 31, 25, 55, 2, 49
+   51 -> 24, 33, 25, 57, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
+   52 -> 24, 35, 25, 57, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
+   53 -> 24, 39, 26, 58, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
+   54 -> 24, 42, 27, 58, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
+   55 -> 26, 43, 28, 60, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
+   56 -> 28, 47, 28, 60, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
+   57 -> 28, 53, 28, 63, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
+   58 -> 28, 60, 28, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
+   59 -> 33, 63, 28, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
+   60 -> 36, 74, 29, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
+   61 -> 36, 78, 30, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
+   62 -> 36, 86, 32, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
+   63 -> 38, 89, 35, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
+   64 -> 40, 96, 40, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
+   65 -> 40, 99, 42, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
+   66 -> 40, 99, 42, 87, 12, 105
+   67 -> 40, 99, 42, 87, 12, 105
+   68 -> 40, 102, 44, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
 
 11:
    11 -> 0, 0, 0, 0, 0, 0
-   12 -> 1, 0, 1, 0, 0, 0 # kricketot, wurmple
-   13 -> 1, 0, 1, 0, 0, 2 # stunky, zubat
-   14 -> 1, 0, 1, 0, 0, 4 # zubat, glameow
-   15 -> 1, 0, 1, 0, 0, 7 # zubat, purugly
-   16 -> 1, 0, 1, 0, 0, 8 # pachirisu
-   17 -> 2, 0, 3, 0, 0, 8 # wurmple, silcoon
-   18 -> 2, 0, 3, 4, 0, 8 # beautifly, abra
-   19 -> 2, 0, 3, 8, 0, 8 # abra, cherubi, roselia
-   20 -> 2, 0, 3, 10, 0, 8 # budew, budew
-   21 -> 2, 1, 3, 13, 0, 8 # budew, roselia, turtwig
-   22 -> 2, 1, 3, 18, 0, 8 # cherrim, roserade
-   23 -> 2, 1, 3, 20, 0, 8 # kadabra
-   24 -> 4, 1, 4, 20, 0, 9 # zubat, skuntank, nosepass
-   25 -> 4, 1, 4, 23, 2, 9 # duskull, haunter, mismagius
-   26 -> 4, 1, 4, 23, 2, 12 # staravia, buizel
-   27 -> 4, 1, 5, 26, 2, 13 # monferno, roselia, bronzor
-   28 -> 4, 3, 6, 28, 2, 13 # shieldon, heracross, roselia
-   29 -> 8, 3, 7, 29, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 8, 6, 7, 29, 2, 14 # croagunk, machoke
-   31 -> 8, 6, 7, 29, 2, 14
-   32 -> 8, 6, 7, 29, 2, 14
-   33 -> 8, 6, 7, 29, 2, 14
-   34 -> 8, 6, 7, 29, 2, 14
-   35 -> 8, 10, 7, 30, 2, 16 # meditite, machoke, lucario, zubat, croagunk
-   36 -> 9, 10, 7, 33, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
-   37 -> 9, 10, 9, 36, 2, 23 # buizel, monferno, roselia, wingull, pelipper
-   38 -> 16, 12, 9, 38, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
-   39 -> 18, 14, 9, 38, 2, 26 # gyarados, floatzel, quagsire
-   40 -> 18, 18, 10, 40, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
-   41 -> 21, 18, 10, 41, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
-   42 -> 21, 24, 10, 42, 2, 34 # murkrow, staraptor, heracross, infernape
-   43 -> 21, 24, 12, 45, 2, 36 # floatzel, roserade, steelix
-   44 -> 21, 24, 12, 45, 2, 36
-   45 -> 21, 26, 16, 47, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
-   46 -> 21, 26, 23, 49, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
-   47 -> 21, 29, 24, 49, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
-   48 -> 23, 29, 25, 53, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
-   49 -> 23, 31, 25, 53, 2, 49 # buneary, seaking
-   50 -> 23, 31, 25, 53, 2, 49
-   51 -> 24, 33, 25, 55, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
-   52 -> 24, 35, 25, 55, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
-   53 -> 24, 39, 26, 56, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
-   54 -> 24, 42, 27, 56, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
-   55 -> 26, 43, 28, 58, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
-   56 -> 28, 47, 28, 58, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
-   57 -> 28, 53, 28, 61, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
-   58 -> 28, 60, 28, 63, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
-   59 -> 33, 63, 28, 67, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
-   60 -> 36, 74, 29, 68, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
-   61 -> 36, 78, 30, 72, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
-   62 -> 36, 86, 32, 75, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
-   63 -> 38, 89, 35, 79, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
-   64 -> 40, 96, 40, 79, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
-   65 -> 40, 99, 42, 85, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
-   66 -> 40, 99, 42, 85, 12, 105
-   67 -> 40, 99, 42, 85, 12, 105
-   68 -> 40, 102, 44, 92, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+   12 -> 0, 0, 0, 2, 0, 0 # budew, cherubi
+   13 -> 0, 0, 0, 2, 0, 2 # stunky, zubat
+   14 -> 0, 0, 0, 2, 0, 4 # zubat, glameow
+   15 -> 0, 0, 0, 2, 0, 7 # zubat, purugly
+   16 -> 0, 0, 0, 2, 0, 7
+   17 -> 1, 0, 2, 2, 0, 8 # pachirisu, wurmple, silcoon
+   18 -> 1, 0, 2, 6, 0, 8 # beautifly, abra
+   19 -> 1, 0, 2, 8, 0, 8 # abra, cherubi
+   20 -> 1, 0, 2, 12, 0, 8 # roselia, budew, budew
+   21 -> 1, 1, 2, 15, 0, 8 # budew, roselia, turtwig
+   22 -> 1, 1, 2, 20, 0, 8 # cherrim, roserade
+   23 -> 1, 1, 2, 22, 0, 8 # kadabra
+   24 -> 3, 1, 3, 22, 0, 9 # zubat, skuntank, nosepass
+   25 -> 3, 1, 3, 25, 2, 9 # duskull, haunter, mismagius
+   26 -> 3, 1, 3, 25, 2, 12 # staravia, buizel
+   27 -> 3, 1, 4, 28, 2, 13 # monferno, roselia, bronzor
+   28 -> 3, 3, 5, 30, 2, 13 # shieldon, heracross, roselia
+   29 -> 7, 3, 6, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
+   30 -> 7, 6, 6, 31, 2, 14 # croagunk, machoke
+   31 -> 7, 6, 6, 31, 2, 14
+   32 -> 7, 6, 6, 31, 2, 14
+   33 -> 7, 6, 6, 31, 2, 14
+   34 -> 7, 6, 6, 31, 2, 14
+   35 -> 7, 10, 6, 32, 2, 16 # meditite, machoke, lucario, zubat, croagunk
+   36 -> 8, 10, 6, 35, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
+   37 -> 8, 10, 8, 38, 2, 23 # buizel, monferno, roselia, wingull, pelipper
+   38 -> 15, 12, 8, 40, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
+   39 -> 17, 14, 8, 40, 2, 26 # gyarados, floatzel, quagsire
+   40 -> 17, 18, 9, 42, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
+   41 -> 20, 18, 9, 43, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
+   42 -> 20, 24, 9, 44, 2, 34 # murkrow, staraptor, heracross, infernape
+   43 -> 20, 24, 11, 47, 2, 36 # floatzel, roserade, steelix
+   44 -> 20, 24, 11, 47, 2, 36
+   45 -> 20, 26, 15, 49, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
+   46 -> 20, 26, 22, 51, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
+   47 -> 20, 29, 23, 51, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
+   48 -> 22, 29, 24, 55, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
+   49 -> 22, 31, 24, 55, 2, 49 # buneary, seaking
+   50 -> 22, 31, 24, 55, 2, 49
+   51 -> 23, 33, 24, 57, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
+   52 -> 23, 35, 24, 57, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
+   53 -> 23, 39, 25, 58, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
+   54 -> 23, 42, 26, 58, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
+   55 -> 25, 43, 27, 60, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
+   56 -> 27, 47, 27, 60, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
+   57 -> 27, 53, 27, 63, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
+   58 -> 27, 60, 27, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
+   59 -> 32, 63, 27, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
+   60 -> 35, 74, 28, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
+   61 -> 35, 78, 29, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
+   62 -> 35, 86, 31, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
+   63 -> 37, 89, 34, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
+   64 -> 39, 96, 39, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
+   65 -> 39, 99, 41, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
+   66 -> 39, 99, 41, 87, 12, 105
+   67 -> 39, 99, 41, 87, 12, 105
+   68 -> 39, 102, 43, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
 :::
 
 # Pokemon Platinum Any% Manipless Glitchless Starly+
@@ -419,24 +419,24 @@ Menu:
 - Swap the Starly to the front, check its nature
 - Repel
 
-:::::::if{source="Starly" condition="startingLevel=9"}
-  :::::trainer[Aroma Lady Taylor (spinner)]
-    :info[Only fight her if you caught a lvl 9 Starly]{color=pink}
-    :::pokemon[Budew]
-      - Wing Attack spam
-    :::
-    :::pokemon[Cherubi]
-      - Wing Attack spam
-    :::
+:::::::trainer[Aroma Lady Taylor]
+  :::::pokemon[Budew]
+    - Wing Attack spam
+  :::::
+  :::::pokemon[Cherubi]
+    - Wing Attack spam
   :::::
 :::::::
 
-:::::::trainer[Bug Catcher Brandon]
-  :::::pokemon[Kricketot]
+:::::::if{source="Starly" condition="startingLevel=9 || startingLevel=10"}
+  :::::trainer[Bug Catcher Brandon]
+    :info[Don't fight him if you caught a lvl 11 Starly]{color=pink}
+    :::pokemon[Kricketot]
     - Wing Attack spam
-  :::::
-  :::::pokemon[Wurmple]
+    :::
+    :::pokemon[Wurmple]
     - Wing Attack spam
+    :::
   :::::
 :::::::
 
@@ -500,12 +500,7 @@ Menu:
 - Heal to 21+
 
 :::::::trainer[Galactic Grunt (spinner)]
-  :::::if{source="Starly" condition="startingLevel=10"}
-    :info[Mandatory trainer when you caught a lvl 10 Starly]{color=pink}
-  :::::
-  :::::if{source="Starly" condition="startingLevel=9 || startingLevel=11"}
-    :info[Strategy in case you hit the spinner]{color=pink}
-  :::::
+  :info[Strategy in case you hit the spinner]{color=pink}
   :::::pokemon[Zubat]
     - Wing Attack spam
   :::::
@@ -555,8 +550,14 @@ Grab X Sp Def near the hiker (you have to pass this spinner three times, be care
     - Quick Attack x4-5
     - **Do not input stats into the IV calculator during this fight!**
     - Consider swapping to another Poke to double Intimidate if -Def
+   :::if{source="Starly" condition="startingLevel=9"}
     ::damage[Spark at -1 (Def)]{source="Starly" level=15 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-1}
     ::damage[Spark at -2 (Def)]{source="Starly" level=15 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-2}
+    :::
+   :::if{source="Starly" condition="startingLevel=10 || startingLevel=11"}
+    ::damage[Spark at -1 (Def)]{source="Starly" level=16 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-1}
+    ::damage[Spark at -2 (Def)]{source="Starly" level=16 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-2}
+    :::
   :::::
   :::::pokemon[Wurmple, Silcoon, Beautifly]
     - Pluck
