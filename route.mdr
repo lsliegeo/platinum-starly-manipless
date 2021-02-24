@@ -1241,7 +1241,7 @@ Menu:
     :::
     - Heal whenever below half HP (cause of Brine)
     - At high attack, can skip 1 X Attack
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=82 stab=true combatStages=1 otherModifier=1.2}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=84 stab=true combatStages=1 otherModifier=1.2}
   :::::
   :::::pokemon[Floatzel]
     - (Heal if in Aqua Jet range) + Return
@@ -1249,7 +1249,7 @@ Menu:
   :::::
   :::::pokemon[Quagsire]
     - Return
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=67 healthThreshold=113 movePower=82 stab=true combatStages=1 otherModifier=1.2}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=84 stab=true combatStages=1 otherModifier=1.2}
   :::::
 :::::::
 
@@ -1344,7 +1344,7 @@ Menu:
        - X Speed + Return
     :::
     - Can Close Combat here if Attack is bad, just be aware of SpDef drop
-    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=85 stab=true otherModifier=1.2}
+    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=87 stab=true otherModifier=1.2}
   :::::
   :::::pokemon[Golbat]
     - Aerial Ace + Return
@@ -1352,7 +1352,7 @@ Menu:
   :::::
   :::::pokemon[Murkrow]
      - Return
-    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=85 stab=true otherModifier=1.2}
+    ::damage[Return]{source="Starly" level=41 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=87 stab=true otherModifier=1.2}
   :::::
 :::::::
 
