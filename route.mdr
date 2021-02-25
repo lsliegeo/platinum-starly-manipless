@@ -698,6 +698,15 @@ Talk to Jupiter from the front
   :::::pokemon[Skuntank]
     - Endeavor x1-2 + Pluck / Quick Attack
     - Faster at 47 speed (x / 21+ / 4+)
+    :::if{source="Starly" level=23 evolution=1 condition="speed=47+"}
+      :info[Your are faster]{color=red}
+    :::
+    :::if{source="Starly" level=23 evolution=1 condition="speed=46"}
+      :info[It's a speedtie]{color=gray}
+    :::
+    :::if{source="Starly" level=23 evolution=1 condition="speed=45-"}
+      :info[Your are slower]{color=blue}
+    :::
     - Swap out if dead to Night Slash or Screech'd, heal Staravia before sending back out
     ::damage[Night Slash (Def)]{source="Starly" level=23 evolution=1 offensive=false opponentLevel=23 opponentStat=45 movePower=70 stab=true}
     ::damage[Night Slash at -1 (Def)]{source="Starly" level=23 evolution=1 offensive=false opponentLevel=23 opponentStat=45 movePower=70 stab=true opponentCombatStages=-1}
@@ -1241,7 +1250,7 @@ Menu:
     :::
     - Heal whenever below half HP (cause of Brine)
     - At high attack, can skip 1 X Attack
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=84 stab=true combatStages=1 otherModifier=1.2}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=100 stab=true combatStages=1}
   :::::
   :::::pokemon[Floatzel]
     - (Heal if in Aqua Jet range) + Return
@@ -1249,7 +1258,7 @@ Menu:
   :::::
   :::::pokemon[Quagsire]
     - Return
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=84 stab=true combatStages=1 otherModifier=1.2}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=100 stab=true combatStages=1}
   :::::
 :::::::
 
@@ -1344,7 +1353,7 @@ Menu:
        - X Speed + Return
     :::
     - Can Close Combat here if Attack is bad, just be aware of SpDef drop
-    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=87 stab=true otherModifier=1.2}
+    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=104 stab=true}
   :::::
   :::::pokemon[Golbat]
     - Aerial Ace + Return
@@ -1352,13 +1361,13 @@ Menu:
   :::::
   :::::pokemon[Murkrow]
      - Return
-    ::damage[Return]{source="Starly" level=41 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=87 stab=true otherModifier=1.2}
+    ::damage[Return]{source="Starly" level=41 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=104 stab=true}
   :::::
 :::::::
 
 Menu:
 - Super Repel
-- Teach Surf to Marill/Psyduck (for Marill, move you overwrite doesn’t matter)
+- Teach Surf to Marill/Psyduck (for Marill, move you overwrite doesn't matter)
 - Heal to full if yellow hp
 - Fly to Jubilife
 
@@ -1587,7 +1596,7 @@ Off to lake
     :::if{source="Starly" level=47 evolution=2 condition="speed=104-"}
       - X Speed + Return
     :::
-    ::damage[Fake Out at -1 (Def)]{source="Starly" level=47 evolution=2 offensive=false opponentLevel=40 opponentStat=80 movePower=40 stab=true combatStages=-1}
+    ::damage[Fake Out (-1 Def)]{source="Starly" level=47 evolution=2 offensive=false opponentLevel=40 opponentStat=80 movePower=40 stab=true combatStages=-1}
   :::::
 :::::::
 
@@ -1675,10 +1684,12 @@ Menu:
 Heal if you got Statused last fight
 
 :::::::trainer[Ace Trainer Olivia]
+  - Hail does ~9 (10 if >= 160 max HP)
   :::::pokemon[Kirlia]
     - Return
   :::::
-  :::::pokemon[Return]
+  :::::pokemon[Buneary]
+    - Return
     - Has Quick Attack
   :::::
   :::::pokemon[Seaking]
@@ -1703,7 +1714,7 @@ Menu:
 ## Snowpoint Gym
 
 :::::::trainer[Leader Candice]
-  Hail does ~10
+  Hail does ~9 (10 if >= 160 max HP)
   :::::pokemon[Sneasel]
     :::if{source="Starly" level=50 evolution=2 condition="speed=116+"}
       - X Attack + X Acc + (Heal) + Return
@@ -1745,13 +1756,9 @@ Get Storage Key from the Grunt, into warehouse (SAY YES)
 ## Galactic Warehouse
 
 :::::::trainer[Galactic 1]
-  :::::pokemon[Houndour]
+  :::::pokemon[Houndour, Murkrow]
     - Return
-    - Aerial Ace if less than 2 Return PP left
-  :::::
-  :::::pokemon[Murkrow]
-    - Return
-    - Aerial Ace if less than 2 Return PP left
+    - Aerial Ace if 2 or less Return PP
   :::::
 :::::::
 
@@ -1830,23 +1837,25 @@ Enter left portal
 **Heal if yellow HP**
 
 :::::::trainer[Commander Saturn]
-  :::::if{source="Starly" condition="atk=(x / 16+ / 0+)" theme=neutral}
+  :::::if{source="Starly" condition="atk=(x / 10+ / 0+)" theme=neutral}
+    *High attack strat*
     :::pokemon[Golbat]
       - Return
-      - 15/16 range at (x / 16-19 / x)
-    ::damage[Air Cutter (Sp Def)]{source="Starly" level=52 evolution=2 offensive=false opponentLevel=42 opponentStat=69 movePower=55 special=true stab=true}
+    ::damage[+0 Return]{source="Starly" level=52 evolution=2 offensive=true opponentStat=80 healthThreshold=125 movePower=122 stab=true}
     :::
     :::pokemon[Bronzor]
       - Return + (Full Heal if confused) + Return
     :::
   :::::
-  :::::if{source="Starly" condition="atk=~(x / 16+ / 0+)" theme=neutral}
+  :::::if{source="Starly" condition="atk=(0+ / 22- / x)" theme=neutral}
+    *Low attack strat*
     :::pokemon[Golbat]
       - X Attack + (Full Heal if confused) + Return
     ::damage[Air Cutter (Sp Def)]{source="Starly" level=52 evolution=2 offensive=false opponentLevel=42 opponentStat=69 movePower=55 special=true stab=true}
     :::
     :::pokemon[Bronzor]
-      - Close Combat
+      - (Close Combat) or Return x2
+    ::damage[+1 Close Combat]{source="Starly" level=52 evolution=2 offensive=true opponentStat=87 healthThreshold=109 movePower=120 stab=false combatStages=1}
     :::
   :::::
   :::::pokemon[Toxicroak]
@@ -1923,6 +1932,7 @@ Pickup Rare Candy just below here
   - If Porygon dies, send out Marill/Turtwig
   - If Porygon doesn't finish off right side, use Return on the Croagunk(s)
   - Heal during this fight with Porygon as needed
+  - **Aerial Ace left side, Psybeam right side**
   :::::pokemon[Stunky (left)]
     - Aerial Ace
   :::::
@@ -1980,7 +1990,7 @@ Say Yes to Cynthia and through distortion world
 
 ## Distortion World
 
-This guide assumes you’ve memorized the Distortion World movement. If you don’t know where to go, follow [**this guide**](https://docs.google.com/document/d/12SlEVLXY4OHffpboxmfDq9Tgf1LQjpQtISoulz9l52I/edit) (courtesy of The4thGenGamer)
+This guide assumes you've memorized the Distortion World movement. If you don't know where to go, follow [**this guide**](https://docs.google.com/document/d/12SlEVLXY4OHffpboxmfDq9Tgf1LQjpQtISoulz9l52I/edit) (courtesy of The4thGenGamer)
 
 Talk to Cyrus and say no
 
@@ -2415,7 +2425,7 @@ Menu:
   :::::pokemon[Lucario]
     - (Heal to full if in Extremespeed range) + Close Combat
     ::damage[Extremespeed (Def)]{source="Starly" level=68 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
-    ::damage[+2 Return]{source="Starly" level=68 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=102 stab=true effectiveness=0.5 combatStages=2 otherModifier=1.2}
+    ::damage[+2 Return]{source="Starly" level=68 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
   :::::
   :::::pokemon[Milotic]
     - Return
