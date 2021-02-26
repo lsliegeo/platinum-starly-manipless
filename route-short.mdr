@@ -1,0 +1,1343 @@
+:::tracker{species=Turtwig baseStats="[[55, 68, 64, 45, 55, 31]]"}
+5:
+   6 -> 0, 0, 0, 0, 0, 1 # Chimchar (1 SPD)
+   7 -> 0, 0, 0, 0, 0, 2 # Starly (1 SPD)
+   8 -> 1, 0, 0, 0, 0, 2 # Bidoof (1 HP)
+   9 -> 1, 0, 0, 0, 1, 3 # Burmy (1 SPDEF), Starly (1 SPD)
+   10 -> 1, 0, 0, 0, 1, 4 # Chimchar (1 SPD)
+   11 -> 1, 0, 0, 0, 1, 4
+   12 -> 1, 0, 0, 0, 1, 4
+   13 -> 1, 0, 4, 0, 0, 0 # 4 defense IVs before Cranidos
+:::
+
+:::tracker{species=Starly baseStats="[[40, 55, 30, 30, 30, 60], [55, 75, 50, 40, 40, 80], [85, 120, 70, 50, 50, 100]]"}
+9:
+   9 -> 0, 0, 0, 0, 0, 0
+   10 -> 0, 0, 0, 2, 0, 0 # budew, cherubi
+   11 -> 0, 0, 1, 2, 0, 0 # kricketot
+   12 -> 1, 0, 1, 2, 0, 1 # wurmple, stunky
+   13 -> 1, 0, 1, 2, 0, 2 # zubat
+   14 -> 1, 0, 1, 2, 0, 4 # zubat, glameow
+   15 -> 1, 0, 1, 2, 0, 7 # zubat, purugly
+   16 -> 1, 0, 1, 2, 0, 8 # pachirisu
+   17 -> 2, 0, 3, 2, 0, 8 # wurmple, silcoon
+   18 -> 2, 0, 3, 6, 0, 8 # beautifly, abra
+   19 -> 2, 0, 3, 10, 0, 8 # abra, cherubi, roselia
+   20 -> 2, 0, 3, 12, 0, 8 # budew, budew
+   21 -> 2, 1, 3, 15, 0, 8 # budew, roselia, turtwig
+   22 -> 2, 1, 3, 20, 0, 8 # cherrim, roserade
+   23 -> 2, 1, 3, 22, 0, 9 # kadabra, zubat
+   24 -> 4, 1, 4, 22, 0, 9 # skuntank, nosepass
+   25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
+   26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
+   27 -> 4, 1, 6, 28, 2, 13 # monferno, roselia, bronzor, shieldon
+   28 -> 4, 3, 6, 30, 2, 13 # heracross, roselia
+   29 -> 8, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
+   30 -> 8, 6, 7, 31, 2, 14 # croagunk, machoke
+   31 -> 8, 6, 7, 31, 2, 14
+   32 -> 8, 6, 7, 31, 2, 14
+   33 -> 8, 6, 7, 31, 2, 14
+   34 -> 8, 6, 7, 31, 2, 14
+   35 -> 8, 10, 7, 32, 2, 16 # meditite, machoke, lucario, zubat, croagunk
+   36 -> 9, 10, 7, 35, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
+   37 -> 9, 10, 9, 38, 2, 23 # buizel, monferno, roselia, wingull, pelipper
+   38 -> 16, 12, 9, 40, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
+   39 -> 18, 14, 9, 40, 2, 26 # gyarados, floatzel, quagsire
+   40 -> 18, 18, 10, 42, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
+   41 -> 21, 18, 10, 43, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
+   42 -> 21, 24, 10, 44, 2, 34 # murkrow, staraptor, heracross, infernape
+   43 -> 21, 24, 12, 47, 2, 36 # floatzel, roserade, steelix
+   44 -> 21, 24, 12, 47, 2, 36
+   45 -> 21, 26, 16, 49, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
+   46 -> 21, 26, 23, 51, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
+   47 -> 21, 29, 24, 51, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
+   48 -> 23, 29, 25, 55, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
+   49 -> 23, 31, 25, 55, 2, 49 # buneary, seaking
+   50 -> 23, 31, 25, 55, 2, 49
+   51 -> 24, 33, 25, 57, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
+   52 -> 24, 35, 25, 57, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
+   53 -> 24, 39, 26, 58, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
+   54 -> 24, 42, 27, 58, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
+   55 -> 26, 43, 28, 60, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
+   56 -> 28, 47, 28, 60, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
+   57 -> 28, 53, 28, 63, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
+   58 -> 28, 60, 28, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
+   59 -> 33, 63, 28, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
+   60 -> 36, 74, 29, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
+   61 -> 36, 78, 30, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
+   62 -> 36, 86, 32, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
+   63 -> 38, 89, 35, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
+   64 -> 40, 96, 40, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
+   65 -> 40, 99, 42, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
+   66 -> 40, 99, 42, 87, 12, 105
+   67 -> 40, 99, 42, 87, 12, 105
+   68 -> 40, 102, 44, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+
+10:
+   10 -> 0, 0, 0, 0, 0, 0
+   11 -> 0, 0, 0, 2, 0, 0 # budew, cherubi
+   12 -> 1, 0, 1, 2, 0, 0 # kricketot, wurmple
+   13 -> 1, 0, 1, 2, 0, 1 # stunky
+   14 -> 1, 0, 1, 2, 0, 4 # zubat, zubat, glameow
+   15 -> 1, 0, 1, 2, 0, 7 # zubat, purugly
+   16 -> 1, 0, 1, 2, 0, 7
+   17 -> 2, 0, 1, 2, 0, 8 # pachirisu, wurmple
+   18 -> 2, 0, 3, 5, 0, 8 # silcoon, beautifly
+   19 -> 2, 0, 3, 8, 0, 8 # abra, abra, cherubi
+   20 -> 2, 0, 3, 12, 0, 8 # roselia, budew, budew
+   21 -> 2, 0, 3, 15, 0, 8 # budew, roselia
+   22 -> 2, 1, 3, 20, 0, 8 # turtwig, cherrim, roserade
+   23 -> 2, 1, 3, 22, 0, 8 # kadabra
+   24 -> 4, 1, 4, 22, 0, 9 # zubat, skuntank, nosepass
+   25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
+   26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
+   27 -> 4, 1, 5, 28, 2, 13 # monferno, roselia, bronzor
+   28 -> 4, 3, 6, 30, 2, 13 # shieldon, heracross, roselia
+   29 -> 6, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel
+   30 -> 8, 6, 7, 31, 2, 14 # drifblim, croagunk, machoke
+   31 -> 8, 6, 7, 31, 2, 14
+   32 -> 8, 6, 7, 31, 2, 14
+   33 -> 8, 6, 7, 31, 2, 14
+   34 -> 8, 6, 7, 31, 2, 14
+   35 -> 8, 10, 7, 32, 2, 16 # meditite, machoke, lucario, zubat, croagunk
+   36 -> 9, 10, 7, 35, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
+   37 -> 9, 10, 9, 38, 2, 23 # buizel, monferno, roselia, wingull, pelipper
+   38 -> 16, 12, 9, 40, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
+   39 -> 18, 14, 9, 40, 2, 26 # gyarados, floatzel, quagsire
+   40 -> 18, 18, 10, 42, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
+   41 -> 21, 18, 10, 43, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
+   42 -> 21, 24, 10, 44, 2, 34 # murkrow, staraptor, heracross, infernape
+   43 -> 21, 24, 12, 47, 2, 36 # floatzel, roserade, steelix
+   44 -> 21, 24, 12, 47, 2, 36
+   45 -> 21, 26, 16, 49, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
+   46 -> 21, 26, 23, 51, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
+   47 -> 21, 29, 24, 51, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
+   48 -> 23, 29, 25, 55, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
+   49 -> 23, 31, 25, 55, 2, 49 # buneary, seaking
+   50 -> 23, 31, 25, 55, 2, 49
+   51 -> 24, 33, 25, 57, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
+   52 -> 24, 35, 25, 57, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
+   53 -> 24, 39, 26, 58, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
+   54 -> 24, 42, 27, 58, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
+   55 -> 26, 43, 28, 60, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
+   56 -> 28, 47, 28, 60, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
+   57 -> 28, 53, 28, 63, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
+   58 -> 28, 60, 28, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
+   59 -> 33, 63, 28, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
+   60 -> 36, 74, 29, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
+   61 -> 36, 78, 30, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
+   62 -> 36, 86, 32, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
+   63 -> 38, 89, 35, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
+   64 -> 40, 96, 40, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
+   65 -> 40, 99, 42, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
+   66 -> 40, 99, 42, 87, 12, 105
+   67 -> 40, 99, 42, 87, 12, 105
+   68 -> 40, 102, 44, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+
+11:
+   11 -> 0, 0, 0, 0, 0, 0
+   12 -> 0, 0, 0, 2, 0, 0 # budew, cherubi
+   13 -> 0, 0, 0, 2, 0, 2 # stunky, zubat
+   14 -> 0, 0, 0, 2, 0, 4 # zubat, glameow
+   15 -> 0, 0, 0, 2, 0, 7 # zubat, purugly
+   16 -> 0, 0, 0, 2, 0, 7
+   17 -> 1, 0, 2, 2, 0, 8 # pachirisu, wurmple, silcoon
+   18 -> 1, 0, 2, 6, 0, 8 # beautifly, abra
+   19 -> 1, 0, 2, 8, 0, 8 # abra, cherubi
+   20 -> 1, 0, 2, 12, 0, 8 # roselia, budew, budew
+   21 -> 1, 1, 2, 15, 0, 8 # budew, roselia, turtwig
+   22 -> 1, 1, 2, 20, 0, 8 # cherrim, roserade
+   23 -> 1, 1, 2, 22, 0, 8 # kadabra
+   24 -> 3, 1, 3, 22, 0, 9 # zubat, skuntank, nosepass
+   25 -> 3, 1, 3, 25, 2, 9 # duskull, haunter, mismagius
+   26 -> 3, 1, 3, 25, 2, 12 # staravia, buizel
+   27 -> 3, 1, 4, 28, 2, 13 # monferno, roselia, bronzor
+   28 -> 3, 3, 5, 30, 2, 13 # shieldon, heracross, roselia
+   29 -> 7, 3, 6, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
+   30 -> 7, 6, 6, 31, 2, 14 # croagunk, machoke
+   31 -> 7, 6, 6, 31, 2, 14
+   32 -> 7, 6, 6, 31, 2, 14
+   33 -> 7, 6, 6, 31, 2, 14
+   34 -> 7, 6, 6, 31, 2, 14
+   35 -> 7, 10, 6, 32, 2, 16 # meditite, machoke, lucario, zubat, croagunk
+   36 -> 8, 10, 6, 35, 2, 20 # zubat, stunky, chingling, drifloon, kirlia, staravia
+   37 -> 8, 10, 8, 38, 2, 23 # buizel, monferno, roselia, wingull, pelipper
+   38 -> 15, 12, 8, 40, 2, 24 # bibarel, azurill, marill, azumarill, wingull, shellos, golduck
+   39 -> 17, 14, 8, 40, 2, 26 # gyarados, floatzel, quagsire
+   40 -> 17, 18, 9, 42, 2, 27 # croagunk, aipom, grotle, girafarig, machoke
+   41 -> 20, 18, 9, 43, 2, 32 # hoothoot, noctowl, houndour, golbat, sneasel, golbat
+   42 -> 20, 24, 9, 44, 2, 34 # murkrow, staraptor, heracross, infernape
+   43 -> 20, 24, 11, 47, 2, 36 # floatzel, roserade, steelix
+   44 -> 20, 24, 11, 47, 2, 36
+   45 -> 20, 26, 15, 49, 2, 36 # scizor, magnemite, magnemite, steelix, steelix
+   46 -> 20, 26, 22, 51, 2, 36 # bronzor, bronzor, bronzor, magneton, bastiodon, steelix
+   47 -> 20, 29, 23, 51, 2, 44 # golbat, bronzor, toxicroak, glameow, croagunk, golbat, murkrow, golbat
+   48 -> 22, 29, 24, 55, 2, 48 # bronzor, purugly, tropius, electabuzz, magmar, kirlia
+   49 -> 22, 31, 24, 55, 2, 49 # buneary, seaking
+   50 -> 22, 31, 24, 55, 2, 49
+   51 -> 23, 33, 24, 57, 2, 53 # sneasel, abomasnow, piloswine, froslass, houndour, murkrow
+   52 -> 23, 35, 24, 57, 2, 64 # golbat, golbat, croagunk, stunky, glameow, stunky, croagunk, sneasel, crobat
+   53 -> 23, 39, 25, 58, 2, 67 # honchkrow, golbat, bronzor, toxicroak, houndour, glameow
+   54 -> 23, 42, 26, 58, 2, 77 # glameow, golbat, golbat, croagunk, murkrow, stunky, croagunk, glameow, croagunk, bronzor, golbat
+   55 -> 25, 43, 27, 60, 2, 82 # skuntank, bronzor, purugly, golbat, houndoom, weavile
+   56 -> 27, 47, 27, 60, 2, 86 # gyarados, honchkrow, crobat, wingull, gastrodon
+   57 -> 27, 53, 27, 63, 2, 92 # machoke, pachirisu, magneton, magnemite, luxio, luxio, electabuzz, raichu
+   58 -> 27, 60, 27, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
+   59 -> 32, 63, 27, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
+   60 -> 35, 74, 28, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
+   61 -> 35, 78, 29, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
+   62 -> 35, 86, 31, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
+   63 -> 37, 89, 34, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
+   64 -> 39, 96, 39, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
+   65 -> 39, 99, 41, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
+   66 -> 39, 99, 41, 87, 12, 105
+   67 -> 39, 99, 41, 87, 12, 105
+   68 -> 39, 102, 43, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+:::
+
+# Pokemon Platinum Any% Manipless Glitchless Starly+
+
+## Sandgem Town
+
+:::card{theme=neutral}
+#### Buy:
+- 5 Potions (v)
+:::
+
+
+## Route 203
+
+:::::::trainer[Rival Barry]
+  :::::pokemon[Starly]
+    ::damage[Quick Attack (Def)]{source="Turtwig" level=8 offensive=false opponentLevel=7 opponentStat=13 movePower=40 stab=true}
+  :::::
+  :::::pokemon[Chimchar]
+    ::damage[Scratch (Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false}
+    ::damage[Scratch (-1 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-1}
+    ::damage[Scratch (-2 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-2}
+    ::damage[Scratch (-3 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-3}
+    ::damage[Scratch (-4 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-4}
+    ::damage[Scratch (-5 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-5}
+    ::damage[Scratch (-6 Def)]{source="Turtwig" level=9 offensive=false opponentLevel=9 opponentStat=15 movePower=40 stab=false combatStages=-6}
+ :::::
+:::::::
+
+
+## Oreburgh Gate
+
+**Psyduck** max is 78% at <23% HP
+
+
+## Oreburgh Gym
+
+:::card
+**200+ EXP**:
+No trainers
+
+**Geodude**:
+First optional
+
+**Else**:
+Second optional
+:::
+
+:::::::trainer[Leader Roark]
+  :::::pokemon[Cranidos]
+    ::damage[Headbutt (Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false}
+    ::damage[Headbutt (-1 Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false combatStages=-1}
+    ::damage[Headbutt (-2 Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false combatStages=-2}
+  :::::
+:::::::
+
+
+## Oreburgh City
+
+:::card{theme=neutral}
+#### Sell:
+- Stardust
+- Stealth Rock
+
+#### Buy:
+- 3 Super Potions (vv)
+- 3 Antidotes (v)
+- 2 Awakenings (vv)
+- 11 Repels (Down 4)
+:::
+
+
+## Floaroma Town - Route 205
+
+::::::trainer[Galactic 1]
+  :::::pokemon[Stunky]
+    ::damage[A single Fury Swipe (Def)]{source="Starly" level=11 offensive=false opponentLevel=13 opponentStat=21 movePower=18 stab=false}
+  :::::
+:::::::
+
+
+## Valley Windworks
+
+:::::::trainer[Galactic 3]
+  :::::pokemon[Glameow]
+    ::damage[Scratch (Def)]{source="Starly" level=13 offensive=false opponentLevel=14 opponentStat=19 movePower=40 stab=true}
+  :::::
+:::::::
+
+:::::::trainer[Galactic Mars]
+  :::::pokemon[Purugly]
+    ::damage[Staravia at -1 (Def)]{source="Starly" level=14 evolution=1 offensive=false opponentLevel=17 opponentStat=34 movePower=40 stab=true opponentCombatStages=-1}
+    ::damage[Turtwig (lvl 14) (Def)]{source="Turtwig" level=14 offensive=false opponentLevel=17 opponentStat=34 movePower=40 stab=true}
+    ::damage[Turtwig (lvl 15) (Def)]{source="Turtwig" level=15 offensive=false opponentLevel=17 opponentStat=34 movePower=40 stab=true}
+  :::::
+:::::::
+
+
+## Route 205
+
+Menu:
+- Heal to full
+- Cheri Berry
+- Repel
+
+![X Sp Def](sp-def.png)
+
+
+## Eterna Forest
+
+:::::::trainer[Double Battle 1]
+  :::::pokemon[Pachirisu]
+   :::if{source="Starly" condition="startingLevel=9"}
+    ::damage[Spark at -1 (Def)]{source="Starly" level=15 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-1}
+    ::damage[Spark at -2 (Def)]{source="Starly" level=15 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-2}
+    :::
+   :::if{source="Starly" condition="startingLevel=10 || startingLevel=11"}
+    ::damage[Spark at -1 (Def)]{source="Starly" level=16 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-1}
+    ::damage[Spark at -2 (Def)]{source="Starly" level=16 evolution=1 offensive=false opponentLevel=16 opponentStat=17 movePower=65 stab=true effectiveness=2 opponentCombatStages=-2}
+    :::
+  :::::
+  :::::pokemon[Beautifly]
+    ::damage[Gust (Sp Def)]{source="Starly" level=17 evolution=1 offensive=false opponentLevel=15 opponentStat=35 movePower=40 special=true stab=true}
+  :::::
+:::::::
+
+![Net Ball](net-ball.png)
+
+
+## Eterna Gym
+
+:::::::trainer[Leader Gardenia]
+  :::::pokemon[Turtwig]
+    - Pluck + (Stall x3) + Pluck
+  :::::
+  :::::pokemon[Cherrim]
+    :::if{source="Starly" level=21 evolution=1 condition="spe=41+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=21 evolution=1 condition="spe=40-"}
+      :info[You are slower]{color=blue}
+    :::
+  :::::
+  :::::pokemon[Roserade]
+    :::if{source="Starly" condition="atk=(x / 17+ / 3+)"}
+      - Pluck + Quick Attack will always kill
+    :::
+    :info[Roserade will always outspeed you]{color=blue}
+    ::damage[Magical Leaf (Sp Def)]{source="Starly" level=21 evolution=1 offensive=false opponentLevel=22 opponentStat=61 movePower=60 special=true stab=true effectiveness=0.5}
+  :::::
+:::::::
+
+
+## Eterna City
+
+:::card{theme=neutral}
+#### Buy:
+- 3 Potions (v) (Save these for Endeavor setup strats later)
+- 5 Super Potions (v)
+- 3 Paralyz Heal (vv)
+- 1 Burn Heal (vv)
+:::
+
+
+Menu:
+- Heal
+- Soothe Bell
+- Teach Cut (v)
+
+
+## Galactic HQ
+
+:::::::trainer[Commander Jupiter]
+  :::::pokemon[Skuntank]
+    :::if{source="Starly" level=23 evolution=1 condition="speed=47+"}
+      :info[Your are faster]{color=red}
+    :::
+    :::if{source="Starly" level=23 evolution=1 condition="speed=46"}
+      :info[It's a speedtie]{color=gray}
+    :::
+    :::if{source="Starly" level=23 evolution=1 condition="speed=45-"}
+      :info[Your are slower]{color=blue}
+    :::
+    ::damage[Night Slash (Def)]{source="Starly" level=23 evolution=1 offensive=false opponentLevel=23 opponentStat=45 movePower=70 stab=true}
+    ::damage[Night Slash at -1 (Def)]{source="Starly" level=23 evolution=1 offensive=false opponentLevel=23 opponentStat=45 movePower=70 stab=true opponentCombatStages=-1}
+  :::::
+:::::::
+
+:::::if{source="Starly" condition="spe=(13+ / 0+ / 25-)"}
+  :::card{theme="warning"}
+  Get X Speed
+  :::
+:::::
+
+
+## Old Chateau
+
+Menu:
+- Register bike
+- Repel
+
+**Oran Berries**
+
+
+## Route 207
+
+![Hidden Rare Candy](candy-207.png)
+![Hidden Revive](revive-207.png)
+
+Menu:
+- Teach Substitute (Pluck)
+- Repel
+
+
+## Hearthome City
+
+:::card{theme="warning"}
+- PC heal Staravia, Turtwig and Psyduck/Dork
+- Make sure Psyduck/Dork is slot 2
+- Deposit everything else
+:::
+
+
+## Hearthome Gym
+
+First room doors: &#9675; - &#9633; - &#9651;
+
+Second room doors: &#9788; - &#9678; - &#9789; - &#9734; - &#9825;
+
+:::::::trainer[Leader Fantina]
+  :::::pokemon[Duskull] 
+    - Substitute + X Sp Def + X Attack
+  :::::
+  :::::pokemon[Haunter]
+    :::if{source="Starly" condition="spe=(13+ / 0+ / 25-)"}
+      - X Speed
+    :::
+    ::damage[Sucker Punch (Def)]{source="Starly" level=24 evolution=1 offensive=false opponentLevel=24 opponentStat=31 movePower=80 stab=false}
+  :::::
+  :::::pokemon[Mismagius]
+    :::if{source="Starly" condition="speed=(12- / x / x)"}
+      :info[You are slower]{color=blue}
+    :::
+    ::damage[Psybeam (+1 Sp Def)]{source="Starly" level=24 evolution=1 offensive=false opponentLevel=26 opponentStat=55 movePower=65 special=true stab=false combatStages=1}
+  :::::
+:::::::
+
+
+## Route 209
+
+:::::::trainer[Rival Barry]
+  :::::pokemon[Staravia]
+    :::if{source="Starly" level=25 evolution=1 condition="speed=51+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=25 evolution=1 condition="speed=50-"}
+      :info[You are slower]{color=blue}
+    :::
+    ::damage[Wing Attack (Def)]{source="Starly" level=25 evolution=1 offensive=false opponentLevel=25 opponentStat=39 movePower=60 stab=true}
+  :::::
+  :::::pokemon[Buizel]
+    - Has Quick Attack
+    :::if{source="Starly" level=25 evolution=1 condition="speed=45+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=25 evolution=1 condition="speed=44-"}
+      :info[You are slower]{color=blue}
+    :::
+    ::damage[Water Gun (Sp Def)]{source="Starly" level=25 evolution=1 offensive=false opponentLevel=23 opponentStat=33 movePower=40 special=true stab=true}
+  :::::
+  :::::pokemon[Monferno]
+    :::if{source="Starly" condition="atk=(x / 24+ / 8+)"}
+      - Wing Attack + Quick Attack will always kill
+    :::
+    :::if{source="Starly" level=26 evolution=1 condition="speed=51+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=26 evolution=1 condition="speed=50-"}
+      :info[You are slower]{color=blue}
+    :::
+    ::damage[Mach Punch (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=40 stab=true}
+    ::damage[Mach Punch at -1 (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=40 stab=true opponentCombatStages=-1}
+    ::damage[Flame Wheel at -1 (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true opponentCombatStages=-1}
+    ::damage[Flame Wheel at -1 in Blaze (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true opponentCombatStages=-1 torrent=true}
+  :::::
+:::::::
+
+![Hidden Ether](ether-209.png)
+
+Menu at grass:
+- Staravia slot 1
+- Teach Return (Quick Attack)
+- Repel
+
+
+## Solaceon Town - Route 210
+
+![Hidden Rare Candy](candy-210.png)
+
+:::::::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
+  :::::trainer[Collector Fernando]
+    :::pokemon[Heracross]
+    ::damage[Brick Break (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=25 opponentStat=67 movePower=75 stab=true}
+    ::damage[Brick Break (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=25 opponentStat=67 movePower=75 stab=true}
+    :::
+  :::::
+:::::::
+
+
+## Route 215
+
+:::::::trainer[Ruin Maniac Calvin]
+  :::::pokemon[Bronzor]
+    ::damage[Extrasensory (lvl 26) (Sp Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=16 movePower=80 special=true stab=true}
+    ::damage[Extrasensory (lvl 27) (Sp Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=16 movePower=80 special=true stab=true}
+  :::::
+  :::::pokemon[Shieldon]
+    ::damage[Take Down (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
+    ::damage[Take Down (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
+  :::::
+:::::::
+
+![Max Ether](max-ether-215.png)
+![Hidden Revive](revive-215.png)
+
+:::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
+Pass the spinner and go through the grass
+:::
+
+:::::::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
+![Fist Plate](fist-plate.png)
+:::::::
+
+:::card{theme=warning}
+**If no Psyduck**: Marill (45%)
+- Repel
+:::
+
+![Hidden Iron](iron-215.png)
+
+:::::::trainer[Top Ace Trainer Maya]
+  :::::pokemon[Lickitung]
+    ::damage[Stomp (Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=25 opponentStat=30 movePower=65 stab=true}
+  :::::
+:::::::
+
+:::::::trainer[Bottom Ace Trainer Dennis]
+  :::::pokemon[Gligar]
+    ::damage[Faint Attack (Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=60 stab=false}
+  :::::
+  :::::pokemon[Buizel]
+    - Buizel has Aqua Jet, and is always faster due to Swift Swim
+    ::damage[Aqua Jet (lvl 28) (Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=40 stab=true weatherBoosted=true}
+    ::damage[Aqua Jet (lvl 29) (Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=40 stab=true weatherBoosted=true}
+  :::::
+  :::::pokemon[Drifblim]
+    - Aftermath does ~19
+    ::damage[Gust (lvl 28) (Sp Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=25 opponentStat=51 movePower=40 special=true stab=true}
+    ::damage[Gust (lvl 29) (Sp Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=25 opponentStat=51 movePower=40 special=true stab=true}
+  :::::
+:::::::
+
+
+## Veilstone City
+
+Grab Star piece near warehouse
+
+![Hidden Calcium](calcium-veilstone.png)
+![Rare Candy](candy-veilstone.png)
+![Hidden PP Up](pp-up-veilstone.png)
+
+:::::card{theme=neutral}
+### Sell:
+- Star Piece
+- Calcium
+- Iron
+- PP Up
+- All TMs
+
+### Bbuy:
+   - 10 X Speeds
+  :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+   - 28 X Attacks (v) (when skipped Fist Plate)
+  :::
+  :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+   - 27 X Attacks (v) (when picked up Fist Plate)
+  :::
+   - 1 X Accuracy (Down 4)
+   - 2 X Sp Defends (vv)
+
+### 1st floor right lady:
+- 3 Full heals (Down all the way)
+
+### 1st floor left lady:
+- 3 Super Repel (Down 6)
+
+**Make sure you have at least $13,456!**
+:::::
+
+
+## Veilstone Gym
+
+:::::::trainer[Black Belt Rafael]
+  :::::pokemon[Machoke]
+    ::damage[Karate Chop (Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=26 opponentStat=52 movePower=50 stab=true}
+  :::::
+:::::::
+
+Menu:
+- Rare Candy x4 30 -> 34
+- Heal to full if not going for Machoke range
+
+:::::::trainer[Leader Maylene]
+  :::::pokemon[Meditite]
+    - (X Attack) 
+  :::::
+  :::::pokemon[Machoke]
+    ::damage[+0 Aerial Ace]{source="Starly" level=34 evolution=2 offensive=true opponentStat=52 healthThreshold=92 movePower=60 stab=true effectiveness=2}
+  :::::
+  :::::pokemon[Lucario]
+    - Close Combat
+    :::if{source="Starly" level=34 evolution=2 condition="speed=78+"}
+      :info[You are faster (when no speed drop)]{color=red}
+    :::
+    :::if{source="Starly" level=34 evolution=2 condition="speed=76-"}
+      :info[You are slower]{color=blue}
+    :::
+  :::::
+:::::::
+
+
+## Veilstone City
+
+Menu:
+- Heal if in Aftermath range ~28
+- Silk Scarf
+- Super Repel
+
+
+## Pastoria City
+
+:::::::trainer[Rival Barry]
+  :::::pokemon[Staravia]
+    - X Attack x2 + Aerial Ace
+  :::::
+  :::::pokemon[Buizel, Monferno, Roselia]
+    - Return
+  :::::
+:::::::
+
+
+## Pastoria Gym
+
+Menu:
+- Heal
+- Teach Fly (Endeavor) (vv)
+
+:::::::trainer[Leader Wake]
+  :::::pokemon[Gyarados]
+    :::if{source="Starly" level=38 evolution=2 condition="speed=97+"}
+      - Swap + X Attack x2
+    :::
+    :::if{source="Starly" level=38 evolution=2 condition="speed=96-"}
+      - Swap + X Attack x2 + X Speed
+    :::
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=100 stab=true combatStages=1}
+  :::::
+  :::::pokemon[Floatzel]
+    ::damage[Aqua Jet (Def)]{source="Starly" level=38 evolution=2 offensive=false opponentLevel=37 opponentStat=97 movePower=40 stab=true}
+  :::::
+  :::::pokemon[Quagsire]
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=100 stab=true combatStages=1}
+  :::::
+:::::::
+
+
+## Valor Lakefront / Valor Lake
+
+Menu:
+- Super Repel
+- Porygon to slot 2
+- Fly back to Solaceon
+
+
+## Celestic Town
+
+:::if{source="Starly" level=40 evolution=2 condition="speed=83-"}
+Menu:
+- Heal
+:::
+
+:::::::trainer[Galactic Leader Cyrus]
+  :::::pokemon[Sneasel]
+    :::if{source="Starly" level=40 evolution=2 condition="speed=83-"}
+       - X Speed
+    :::
+    - Close Combat or Return
+    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=104 stab=true}
+  :::::
+  :::::pokemon[Golbat]
+    - Aerial Ace + Return
+    ::damage[Air Cutter (Sp Def)]{source="Starly" level=40 evolution=2 offensive=false opponentLevel=34 opponentStat=64 movePower=55 special=true stab=true}
+  :::::
+  :::::pokemon[Murkrow]
+    ::damage[Return]{source="Starly" level=41 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=104 stab=true}
+  :::::
+:::::::
+
+Menu:
+- **Down to bag**
+- Super Repel
+- Heal
+- Teach Surf (vv)
+- Fly to Jubilife
+
+
+## Jubilife City / Route 218
+
+![Rare Candy](candy-218.png)
+
+
+## Canalave City
+
+:::::::trainer[Rival Barry]
+  :::::pokemon[Staraptor]
+    :::if{source="Starly" level=41 evolution=2 condition="speed=92+"}
+      - X Attack x2 + Aerial Ace
+    :::
+    :::if{source="Starly" level=41 evolution=2 condition="speed=91-"}
+      - X Speed + X Attack x2 + Aerial Ace
+    :::
+    - Return one shots, can go for if no Double Teams yet
+  :::::
+  :::::pokemon[Heracross, Infernape, Roserade]
+    - Return (X Attack x2)
+    - Aerial Ace (X Attack x1)
+    ::damage[Infernape +0 Aerial Ace]{source="Starly" level=41 evolution=2 offensive=true opponentStat=63 healthThreshold=110 movePower=60 stab=true effectiveness=2} 
+  :::::
+  :::::pokemon[Floatzel]
+    - Return
+  :::::
+:::::::
+
+
+## Canalave Gym
+
+:::::::trainer[Black Belt Ricky]
+  :::::pokemon[Steelix]
+     - Close Combat + (any other move if Tormented) + Close Combat
+  :::::
+:::::::
+
+Menu:
+- **Down to bag**
+- Heal
+- Rare Candy 43 -> 44
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
+- Fist Plate
+:::
+
+**> Magnemite x2**
+
+Menu:
+- Heal
+- Ether Close Combat
+
+:::::::trainer[Black Belt David]
+  :::::pokemon[Steelix]
+    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+       - X Attack x2
+    :::
+    :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+       - X Attack
+    :::
+  :::::
+:::::::
+
+:::::::trainer[Ace Trainer Breanna]
+  :::::pokemon[Bronzor]
+     - X Attack + (Heal Confusion) + Close Combat
+  :::::
+:::::::
+
+Menu:
+- Max Ether Close Combat
+
+**> Byron**
+
+
+## Canalave City
+
+Menu:
+- **Up to Pokemon**
+- Fly to Pastoria
+
+
+## Lake Valor
+
+:::::::trainer[Commander Saturn]
+  :::::pokemon[Golbat]
+    - X Attack
+    - Don't heal poison, full heal confusion
+  :::::
+  :::::pokemon[Bronzor]
+    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+    ::damage[+1 Close Combat w/o Fist Plate]{source="Starly" level=46 evolution=2 offensive=true opponentStat=79 healthThreshold=100 movePower=120 stab=false combatStages=1}
+    :::
+  :::::
+:::::::
+
+Menu:
+- Down to bag + Heal (poison)
+- Fly to Twinleaf
+
+
+## Verity Lake
+
+:::::::trainer[Commander Mars]
+  :::::pokemon[Golbat]
+    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+      - X Attack x2+ (Antidote / Full Heal)
+    :::
+    :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+      - X Attack + (Antidote / Full Heal)
+    :::
+  :::::
+  :::::pokemon[Bronzor]
+    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+    ::damage[+1 Close Combat w/o Close Combat]{source="Starly" level=47 evolution=2 offensive=true opponentStat=86 healthThreshold=100 movePower=120 stab=false combatStages=1}
+    :::
+  :::::
+  :::::pokemon[Purugly]
+    :::if{source="Starly" level=47 evolution=2 condition="speed=104-"}
+      - X Speed
+    :::
+    ::damage[Fake Out (-1 Def)]{source="Starly" level=47 evolution=2 offensive=false opponentLevel=40 opponentStat=80 movePower=40 stab=true combatStages=-1}
+  :::::
+:::::::
+
+
+## Celestic Town
+
+:::card{theme=neutral}
+#### Buy:
+- 21 Hyper Potions (Down 5)
+- 1-2 Revives if you have none (v)
+- 11 Full Heals (Down 6)
+- MAX Max Repel (Down 4)
+
+**If Porygon's Ability is Trace:**
+- Grab Choice Specs from guy with sunglasses (only from 4:00AM - 9:59AM)
+:::
+
+Menu:
+- **Down to Bag**
+- Heal (poison)
+- Teach Strength (vv)
+- (Choice Specs)
+- Max Repel
+
+:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
+Grab Carbos in the grass (not hidden)
+- Effectively adds 2 IVs to Speed.
+:::
+
+## Mt. Coronet
+
+![Rare Candy](candy-coronet-snow-1.png)
+![Hidden Rare Candy](candy-coronet-snow-2.png)
+
+:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
+Use 2 rare candies and Carbos now before the next fight
+:::
+
+
+## Route 217
+
+:::::::trainer[Ace Trainer Dalyon]
+  :::::pokemon[Electabuzz]
+    :::if{source="Starly" level=47 evolution=2 condition="spe=101+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=47 evolution=2 condition="spe=100-"}
+      :info[You are slower. You should have rare candied earlier.]{color=blue}
+    :::
+  :::::
+:::::::
+
+:::::::trainer[Ace Trainer Olivia]
+  - Hail does ~9 (10 if >= 160 max HP)
+  :::::pokemon[Seaking]
+    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
+      - Return
+    :::
+    :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+      - Close Combat
+    :::
+  :::::
+:::::::
+
+Menu:
+- Heal
+- Rare Candy 48 -> 50
+- Teach Rock Climb (vv)
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
+  - Silk Scarf
+:::
+
+
+## Snowpoint Gym
+
+:::::::trainer[Leader Candice]
+  Hail does ~9 (10 if >= 160 max HP)
+  :::::pokemon[Sneasel]
+    :::if{source="Starly" level=50 evolution=2 condition="speed=116+"}
+      - X Attack + X Acc
+    :::
+    :::if{source="Starly" level=50 evolution=2 condition="speed=115-"}
+      - X Speed + X Attack + X Acc
+    :::
+    - Remember Ice Shard is a priority move
+  :::::
+  :::::pokemon[Abomasnow, Piloswine]
+    - Return
+  :::::
+  :::::pokemon[Froslass]
+    - Fly
+  :::::
+:::::::
+
+
+## Snowpoint City / Lake Acuity
+
+Menu:
+- **Up to Pokemon**
+- Fly to Veilstone
+
+
+## Galactic Warehouse
+
+:::::::trainer[Galactic 1]
+  :::::pokemon[Houndour, Murkrow]
+    - Return
+    - Aerial Ace if 2 or less Return PP
+  :::::
+:::::::
+
+![Galactic Key](galactic-key.png)
+
+::::::trainer[Galactic Grunt (top)]
+  :::::pokemon[Croagunk]
+    - Return
+  :::::
+  :::::pokemon[Stunky, Glameow]
+    - Aerial Ace
+  :::::
+:::::::
+
+:::::::trainer[Galactic Grunt (bottom)]
+  :::::pokemon[Stunky]
+    - Aerial Ace
+  :::::
+  :::::pokemon[Croagunk]
+    - Return
+  :::::
+:::::::
+
+If -Attack, go into right portal and grab the Protein<br>
+Enter left portal
+
+:::::::trainer[Galactic Leader Cyrus]
+  :::::pokemon[Sneasel]
+    :::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
+      - X Speed
+    :::
+  :::::
+  :::::pokemon[Crobat]
+    :::if{source="Starly" level=51 evolution=2 condition="speed=120+"}
+      - X Speed + X Attack + (Full Heal if confused)
+    :::
+    :::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
+      - X Attack + (Full Heal if confused)
+    :::
+  :::::
+  :::::pokemon[Honchkrow]
+    - Return
+  :::::
+:::::::
+
+Grab the Full Restore after taking the Portal
+
+:::::::trainer[Commander Saturn]
+  :::::if{source="Starly" condition="atk=(x / 10+ / 0+)" theme=neutral}
+    *High attack strat*
+    :::pokemon[Golbat]
+      - Return
+    ::damage[+0 Return]{source="Starly" level=52 evolution=2 offensive=true opponentStat=80 healthThreshold=125 movePower=122 stab=true}
+    :::
+    :::pokemon[Bronzor]
+      - Return + (Full Heal if confused) + Return
+    :::
+  :::::
+  :::::if{source="Starly" condition="atk=(0+ / 22- / x)" theme=neutral}
+    *Low attack strat*
+    :::pokemon[Golbat]
+      - X Attack + (Full Heal if confused) + Return
+    ::damage[Air Cutter (Sp Def)]{source="Starly" level=52 evolution=2 offensive=false opponentLevel=42 opponentStat=69 movePower=55 special=true stab=true}
+    :::
+    :::pokemon[Bronzor]
+      - Close Combat or Return x2
+    ::damage[+1 Close Combat]{source="Starly" level=52 evolution=2 offensive=true opponentStat=87 healthThreshold=109 movePower=120 stab=false combatStages=1}
+    :::
+  :::::
+  :::::pokemon[Toxicroak]
+    - Return
+  :::::
+:::::::
+
+
+## Mt. Coronet
+
+Menu at hiker spinner:
+- **Down to Bag**
+- Heal
+- Use Protein if grabbed
+- Max Repel
+
+![Hidden Max Elixir](max-elixir-coronet.png)
+![Hidden Full Restore](full-restore-coronet.png)
+
+:::::::trainer[Galactic 1]
+  :::::pokemon[Houndour, Glameow]
+     - Aerial Ace
+  :::::
+:::::::
+
+![Hidden Rare Candy](candy-coronet-top.png)
+
+:::::::trainer[Galactic 2]
+  :::::pokemon[Glameow]
+     - Aerial Ace
+  :::::
+  :::::pokemon[Golbar]
+     - Return
+  :::::
+:::::::
+
+:::::::trainer[Galactic 3]
+  :::::pokemon[Golbat, Croagunk]
+     - Return
+  :::::
+  :::::pokemon[Croagunk]
+     - Return
+  :::::
+:::::::
+
+:::::::trainer[Galactic Double]
+  **Aerial Ace left side, Psybeam right side**
+:::::::
+
+:::::::trainer[Mars & Jupiter]
+  :::::pokemon[Munchlax]
+    - Return
+  :::::
+  - **X Attack** + (Heal Confusion)
+  :::::pokemon[Bronzor]
+    - Return
+    - **Left Bronzor** is priority #1, has Reflect
+    - Don't attack the right Bronzor yet
+  :::::
+  :::::pokemon[Golbat]
+    - Return
+    - Kill Skuntank / Purugly after
+  :::::
+  :::::pokemon[Skuntank]
+    - Return
+    - Will not die to +1 Return with Reflect up
+    - :info[You are faster]{color=red}
+  :::::
+  :::::pokemon[Purugly]
+    - Return
+    - Close Combat if Reflect is still up
+    :::if{source="Starly" level=54 evolution=2 condition="speed=131+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=54 evolution=2 condition="speed=130-"}
+      :info[You are slower]{color=blue}
+    :::
+  :::::
+:::::::
+
+
+## Distortion World
+
+:::::::trainer[Galactic Leader Cyrus]
+  :::::pokemon[Houndoom]
+    - Return
+  :::::
+  :::::pokemon[Weavile]
+    :::if{source="Starly" level=54 evolution=2 condition="speed=140+"}
+      - Close Combat x2
+    :::
+    :::if{source="Starly" level=54 evolution=2 condition="speed=139-"}
+      - X Speed + Close Combat
+    :::
+  :::::
+  :::::pokemon[Gyarados]
+    :::if{source="Starly" level=55 evolution=2 condition="speed=152+"}
+      - Swap + X Attack + Return
+    :::
+    :::if{source="Starly" level=55 evolution=2 condition="speed=151-"}
+      - Swap + X Speed + X Attack + Return
+    :::
+    ::damage[Ice Fang at -1 (Def)]{source="Starly" level=55 evolution=2 offensive=false opponentLevel=46 opponentStat=133 movePower=65 stab=false effectiveness=2 opponentCombatStages=-1}
+  :::::
+  :::::pokemon[Honchkrow, Crobat]
+    - Return
+  :::::
+:::::::
+
+Menu:
+- **If you did not fight Glameow Spinner outside of Pastoria**: Max repel
+- Fly to Sandgem
+
+Talk to Rowan to unlock Sunyshore
+
+
+## Sunyshore Gym
+
+:::::::trainer[Leader Volkner]
+  :::::pokemon[Jolteon]
+    - Return
+  :::::
+  :::::pokemon[Raichu]
+    - X Attack + Return
+  :::::
+  :::::pokemon[Luxray]
+    - (Full Restore if Static'd) + Return
+  :::::
+  :::::pokemon[Electivire]
+    - Return
+    ::damage[Quick Attack (Def)]{source="Starly" level=58 evolution=2 offensive=false opponentLevel=50 opponentStat=109 movePower=40 stab=false}
+  :::::
+:::::::
+
+
+## Sunyshore City
+
+Menu:
+- Teach Waterfall (vv)
+- Max Repel
+
+
+## Victory Road
+
+Menu when repel runs off:
+- Heal
+- Max Elixir
+- Max Repel
+
+:::::::trainer[Ace Trainer Mariah]
+  :::::pokemon[Blissey, Glalie]
+    - Return
+  :::::
+  :::::pokemon[Magnezone]
+    - Close Combat
+  :::::
+:::::::
+
+![Hidden Rare Candy](candy-victory-road.png)
+
+:::::::trainer[Ace Trainer Omar]
+  :::::pokemon[Mamoswine]
+    - Return
+  :::::
+  :::::pokemon[Rampardos]
+    - Close Combat
+  :::::
+  :::::pokemon[Mothim]
+    - Return
+  :::::
+:::::::
+
+:::::::trainer[Ace Trainer Syndey]
+  :::::pokemon[Clefable]
+    - Return
+  :::::
+  :::::pokemon[Torterra]
+    - Fly
+  :::::
+:::::::
+
+:::::::trainer[Black Belt Miles]
+  :::::pokemon[Machamp]
+    - Return
+  :::::
+:::::::
+
+:::::::trainer[Psychic Valencia]
+  :::::pokemon[Chimecho]
+    - Return
+  :::::
+  :::::pokemon[Absol]
+    - Return
+    - Has Sucker Punch
+  :::::
+  :::::pokemon[Dusknoir]
+    - Aerial Ace x1-2
+    - Fly turn 2 if burned
+  :::::
+:::::::
+
+Menu when Max Repel runs out:
+- Max Repel
+- (Heal Burn)
+
+:::::::trainer[Dragon Tamer Ondrej]
+  :::::pokemon[Altaria, Gabite]
+    - Return
+  :::::
+:::::::
+
+:::::::trainer[Veteran Edgar]
+  **Order may vary**
+  ::::pokemon[Porygon-Z]
+    - Return
+  :::::
+  :::::pokemon[Empoleon]
+    - Close Combat
+  :::::
+  :::::pokemon[Tangrowth]
+    - Fly
+  :::::
+:::::::
+
+:::::::trainer[Dragon Tamer Clinton]
+  :::::pokemon[Gible, Swablu, Gabite]
+    - Return
+  :::::
+:::::::
+
+
+## Indigo Plateau
+
+:::::::trainer[Rival Barry]
+  :::::pokemon[Staraptor]
+    - X Attack x2
+    ::damage[Close Combat at -1 (Def)]{source="Starly" level=61 evolution=2 offensive=false opponentLevel=48 opponentStat=131 movePower=120 stab=false opponentCombatStages=-1}
+  :::::
+  :::::pokemon[Floatzel]
+    ::damage[Aqua Jet (Def)]{source="Starly" level=61 evolution=2 offensive=false opponentLevel=47 opponentStat=114 movePower=40 stab=true}
+  :::::
+:::::::
+
+
+## Elite 4
+
+:::::::trainer[Elite Four Aaron]
+  :::::pokemon[Yanmega]
+    - X Attack + Aerial Ace
+  :::::
+  :::::pokemon[Scizor]
+    - Fly
+  :::::
+:::::::
+
+:::::::trainer[Elite Four Bertha]
+  :::::pokemon[Whiscash]
+    - X Attack x2 + Return
+    - You take (HP / 16, rounded down) * 4 damage from sandstorm
+    ::damage[Aqua Tail at -1 (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=50 opponentStat=98 movePower=90 stab=true opponentCombatStages=-1}
+  :::::
+:::::::
+
+:::if{source="Starly" level=64 evolution=2 condition="speed=140-" theme=warning}
+Rare Candy x2 64 -> 66
+
+This messes with the damage calcs, but lets you actually beat Flint
+:::
+
+:::::::trainer[Elite Four Flint]
+  :::::pokemon[Houndoom]
+    - X Attack + Return
+    - Full Restore if burned
+    - Remember if used Sunny Day
+    ::damage[Flamethrower (Sp Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=52 opponentStat=135 movePower=95 special=true stab=true}
+  :::::
+  :::::pokemon[Rapidash]
+    - (Full Restore if Burned) + Return
+  :::::
+  :::::pokemon[Flareon]
+    - Return
+    - If burned with Sunny Day: X Sp Def + Full Restore + Return
+    - If burned without Sunny Day: Full Restore + Return
+    ::damage[Quick Attack (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=55 opponentStat=164 movePower=40 stab=false}
+  :::::
+:::::::
+
+Menu:
+- **Rare Candy** 65 -> 67
+
+Bronzong 2HKO Range at Lv67 w/o Fist Plate (Attack):
+```
+31 / 1- / x   		 181-182   		79.30%
+x / 2-4 / x   		 183-184   		86.72%
+x / 5-7 / x   		 185-186   		91.80%
+x / 8-12 / x  	 	 187-189   		96.09%
+x / 13-15 / x   	 190-191   		98.83%
+x / 16+ / 0+   		 192-193   		100%
+```
+
+:::::::trainer[Elite Four Lucian]
+  :::::if{source="Starly" level=67 evolution=2 condition="speed=157+"}
+    :::pokemon[Mr. Mime]
+      - X Sp Def + X Speed + Heal / Aerial Ace + Return when Reflect is gone
+    :::
+  :::::
+  :::::pokemon[Gallade]
+    - Fly
+    ::damage[Aerial Ace]{source="Starly" level=67 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=60 stab=true effectiveness=2}
+  :::::
+  :::::pokemon[Bronzong]
+    ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
+  :::::
+:::::::
+
+Menu:
+- Heal
+- Silk Scarf
+
+:::::::trainer[Champion Cythia]
+  :::::pokemon[Spiritomb]
+    :::if{source="Starly" level=68 evolution=2 condition="speed=151+"}
+      - (X Sp Def) + X Attack x2
+    :::
+    :::if{source="Starly" level=68 evolution=2 condition="speed=150-"}
+      - (X Sp Def) + X Attack x2 + X Speed
+    :::
+    - Fly
+    ::damage[Dark Pulse (+0 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=58 opponentStat=129 movePower=80 special=true stab=true}
+    ::damage[Dark Pulse (+1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=58 opponentStat=129 movePower=80 special=true stab=true combatStages=1}
+  :::::
+  :::::pokemon[Lucario]
+    - Close Combat
+    ::damage[Extremespeed (Def)]{source="Starly" level=68 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
+    ::damage[+2 Return]{source="Starly" level=68 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
+  :::::
+:::::::
