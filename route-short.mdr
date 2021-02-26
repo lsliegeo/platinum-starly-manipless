@@ -319,6 +319,31 @@ Menu:
   :::::
 :::::::
 
+:::::::trainer[Double Battle 2]
+  :::::pokemon[Left Abra]
+    :::if{source="Starly" level=17 evolution=1 condition="(startingLevel=9 || startingLevel=11) && speed=36+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=17 evolution=1 condition="(startingLevel=9 || startingLevel=11) && speed=35-"}
+      :info[You are slower]{color=blue}
+    :::
+    :::if{source="Starly" level=18 evolution=1 condition="startingLevel=10 && speed=36+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=18 evolution=1 condition="startingLevel=10 && speed=35-"}
+      :info[You are slower]{color=blue}
+    :::
+  :::::
+  :::::pokemon[Right Abra]
+    :::if{source="Starly" level=18 evolution=1 condition="speed=36+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=18 evolution=1 condition="speed=35-"}
+      :info[You are slower]{color=blue}
+    :::
+  :::::
+:::::::
+
 ![Net Ball](../../assets/net-ball.png)
 
 

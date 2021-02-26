@@ -554,6 +554,7 @@ Grab X Sp Def near the hiker (you have to pass this spinner three times, be care
 ## Eterna Forest
 
 :::::::trainer[Double Battle 1]
+  **Teach Endeavor over Growl**
   :::::pokemon[Pachirisu]
     - Quick Attack x4-5
     - **Do not input stats into the IV calculator during this fight!**
@@ -575,20 +576,27 @@ Grab X Sp Def near the hiker (you have to pass this spinner three times, be care
 :::::::trainer[Double Battle 2]
   **Teach Endeavor over Growl**
   :::::pokemon[Left Abra]
-    Pluck
-    - Both have 35 speed
-    - Lv17: outspeed at (x / 21+ / 3+) | Lv18: outspeed at (x / 11+ / 0+)
+    - Pluck
+    :::if{source="Starly" level=17 evolution=1 condition="(startingLevel=9 || startingLevel=11) && speed=36+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=17 evolution=1 condition="(startingLevel=9 || startingLevel=11) && speed=35-"}
+      :info[You are slower]{color=blue}
+    :::
+    :::if{source="Starly" level=18 evolution=1 condition="startingLevel=10 && speed=36+"}
+      :info[You are faster]{color=red}
+    :::
+    :::if{source="Starly" level=18 evolution=1 condition="startingLevel=10 && speed=35-"}
+      :info[You are slower]{color=blue}
+    :::
   :::::
   :::::pokemon[Right Abra]
-    :::if{source="Starly" condition="atk=~(28+ / 6+ / 0+)"}
-      - Did Chansey land Egg Bomb?
-        - yes -> Quick Attack
-        - no -> Pluck
+    - Pluck / Quick Attack
+    :::if{source="Starly" level=18 evolution=1 condition="speed=36+"}
+      :info[You are faster]{color=red}
     :::
-    :::if{source="Starly" condition="atk=(28+ / 6+ / 0+)"}
-      - Are you faster?
-        - yes -> Pluck
-        - no -> Quick Attack
+    :::if{source="Starly" level=18 evolution=1 condition="speed=35-"}
+      :info[You are slower]{color=blue}
     :::
   :::::
 :::::::
