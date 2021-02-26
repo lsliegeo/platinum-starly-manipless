@@ -2133,7 +2133,7 @@ Menu:
   :::::
   :::::pokemon[Electivire]
     - Return
-    - Has Quick Attack
+    ::damage[Quick Attack (Def)]{source="Starly" level=58 evolution=2 offensive=false opponentLevel=50 opponentStat=109 movePower=40 stab=false}
   :::::
 :::::::
 
