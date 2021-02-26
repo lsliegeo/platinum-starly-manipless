@@ -1305,7 +1305,7 @@ x / 16+ / 0+   		 192-193   		100%
 ```
 
 :::::::trainer[Elite Four Lucian]
-  :::::if{source="Starly" level=67 evolution=2 condition="speed=157+"}
+  :::::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
     :::pokemon[Mr. Mime]
       - X Sp Def + X Speed + Heal / Aerial Ace + Return when Reflect is gone
     :::
