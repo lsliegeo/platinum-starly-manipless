@@ -288,6 +288,23 @@ Menu:
 - Repel
 
 
+## Route 204
+
+:::card{theme=warning}
+Need at least 5+ IV with negative speed nature.
+
+Safe options:
+* Lvl 9 with 15 speed: (14-24 / 2- / x)
+* Lvl 10 with 16 speed: (10-19 / x / x)
+* Lvl 11 with 17 speed: (8-16 / x / x)
+
+Risky options:
+* Lvl 9 with 14 speed: (3-13 / x / x)
+* Lvl 10 with 15 speed: (9- / x / x)
+* Lvl 11 with 16 speed: (7- / x / x)
+:::
+
+
 ## Floaroma Town - Route 205
 
 ::::::trainer[Galactic 1]
@@ -453,6 +470,9 @@ Menu:
 
 ![Hidden Revive](../../assets/revive-coronet.png)
 
+:::if{source="Starly" level=67 evolution=2 condition="speed=156-" theme=warning}
+![Hidden Stardust](../../assets/stardust-coronet.png)
+:::
 
 ## Hearthome City
 
@@ -613,14 +633,23 @@ Grab Star piece near warehouse
 
 :::::card{theme=neutral}
 ### Sell:
+:::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
+- Honey
+- Star Piece x2
+:::
+:::if{source="Starly" level=67 evolution=2 condition="speed=157+"}
 - Star Piece
+:::
 - Calcium
 - Iron
 - PP Up
 - All TMs
 
-### Bbuy:
+### Buy:
    - 10 X Speeds
+  :::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
+  - **3 more X Attacks**
+  :::
   :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
    - 28 X Attacks (v) (when skipped Fist Plate)
   :::
@@ -677,6 +706,10 @@ Menu:
 - Heal if in Aftermath range ~28
 - Silk Scarf
 - Super Repel
+
+:::if{source="Starly" condition="speed=(11- / x / x)" theme=warning}
+![Hidden Carbos](../../assets/carbos-214.png)
+:::
 
 
 ## Pastoria City
@@ -892,7 +925,7 @@ Remember **Porygon ability**
 
 :::card{theme=neutral}
 #### Buy:
-- 11 Hyper Potions (Down 5)
+- 21 Hyper Potions (Down 5)
 - Revives if you have none (v)
 - 11 Full Heals (Down 6)
 - 11 Max Repel (Down 4)
@@ -911,9 +944,8 @@ Menu:
 - (Choice Specs)
 - Max Repel
 
-:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
-Grab Carbos in the grass (not hidden)
-- Effectively adds 2 IVs to Speed.
+:::if{source="Starly" condition="speed=(13- / x / x)" theme=warning}
+![Carbos](../../assets/carbos-211.png)
 :::
 
 
@@ -922,39 +954,22 @@ Grab Carbos in the grass (not hidden)
 ![Rare Candy](../../assets/candy-coronet-snow-1.png)
 ![Hidden Rare Candy](../../assets/candy-coronet-snow-2.png)
 
-:::if{source="Starly" condition="speed=(0+ / 9- / x)"}
-Use 2 rare candies and Carbos now before the next fight
+:::::if{source="Starly" condition="speed=(18- / x / x)" theme=warning}
+Menu:
+:::if{source="Starly" condition="speed=(13- / x / x)"}
+- Carbos
 :::
+- Rare Candy 47 -> 49
+:::::
 
 
 ## Route 217
 
-:::::::trainer[Ace Trainer Dalyon]
-  :::::pokemon[Electabuzz]
-    :::if{source="Starly" level=47 evolution=2 condition="spe=101+"}
-      :info[You are faster]{color=red}
-    :::
-    :::if{source="Starly" level=47 evolution=2 condition="spe=100-"}
-      :info[You are slower. You should have rare candied earlier.]{color=blue}
-    :::
-  :::::
-:::::::
-
-:::::::trainer[Ace Trainer Olivia]
-  - Hail does ~9 (10 if >= 160 max HP)
-  :::::pokemon[Seaking]
-    :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
-      - Return
-    :::
-    :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
-      - Close Combat
-    :::
-  :::::
-:::::::
-
 Menu:
 - Heal
+:::if{source="Starly" condition="speed=~(18- / x / x)"}
 - Rare Candy 48 -> 50
+:::
 - Teach Rock Climb (vv)
 :::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
   - Silk Scarf
@@ -988,6 +1003,21 @@ Menu:
 Menu:
 - **Up to Pokemon**
 - Fly to Veilstone
+
+
+:::::if{source="Starly" condition="speed=(7- / x / x)" theme=warning}
+## Veilstone City
+
+2nd floor, middle vendor
+### Buy:
+:::if{source="Starly" condition="speed=(7-8 / x / x)"}
+- 1 Carbos (Down 4)
+:::
+:::if{source="Starly" condition="speed=(4-6 / x / x)"}
+- 2 Carbos (Down 4)
+
+**Use Carbos right away**
+:::::
 
 
 ## Galactic Warehouse
@@ -1339,13 +1369,7 @@ Menu:
 
 :::::::trainer[Champion Cythia]
   :::::pokemon[Spiritomb]
-    :::if{source="Starly" level=68 evolution=2 condition="speed=151+"}
-      - (X Sp Def) + X Attack x2
-    :::
-    :::if{source="Starly" level=68 evolution=2 condition="speed=150-"}
-      - (X Sp Def) + X Attack x2 + X Speed
-    :::
-    - Fly
+    - (X Sp Def) + X Attack x2 + Fly
     ::damage[Dark Pulse (+0 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=58 opponentStat=129 movePower=80 special=true stab=true}
     ::damage[Dark Pulse (+1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=58 opponentStat=129 movePower=80 special=true stab=true combatStages=1}
   :::::
