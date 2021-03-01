@@ -1594,7 +1594,7 @@ Off to lake
   :::::pokemon[Bronzor]
     - Close Combat
     :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
-    ::damage[+1 Close Combat w/o Close Combat]{source="Starly" level=47 evolution=2 offensive=true opponentStat=86 healthThreshold=100 movePower=120 stab=false combatStages=1}
+    ::damage[+1 Close Combat w/o Fist Plate]{source="Starly" level=47 evolution=2 offensive=true opponentStat=86 healthThreshold=100 movePower=120 stab=false combatStages=1}
     :::
   :::::
   :::::pokemon[Purugly]
