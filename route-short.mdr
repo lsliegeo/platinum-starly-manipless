@@ -205,6 +205,21 @@
 :::
 
 
+## Route 202
+
+:::::::trainer[Youngster Tristan]
+  :::::pokemon[Starly]
+    ::damage[Quick Attack (Def)]{source="Turtwig" level=6 offensive=false opponentLevel=5 opponentStat=10 movePower=40 stab=true}
+  :::::
+:::::::
+
+:::::::trainer[Lass Natalie]
+  :::::pokemon[Bidoof]
+    ::damage[Tackle (Def)]{source="Turtwig" level=7 offensive=false opponentLevel=5 opponentStat=9 movePower=35 stab=true}
+  :::::
+:::::::
+
+
 ## Route 203
 
 :::::::trainer[Rival Barry]
@@ -265,6 +280,14 @@ Second optional
 :::
 
 
+## Oreburgh Gate
+
+Menu:
+- Teach Rock Smash
+- Heal
+- Repel
+
+
 ## Floaroma Town - Route 205
 
 ::::::trainer[Galactic 1]
@@ -297,8 +320,6 @@ Menu:
 - Heal to full
 - Cheri Berry
 - Repel
-
-![X Sp Def](../../assets/sp-def.png)
 
 
 ## Eterna Forest
@@ -381,7 +402,6 @@ Menu:
 - 1 Burn Heal (vv)
 :::
 
-
 Menu:
 - Heal
 - Soothe Bell
@@ -431,6 +451,8 @@ Menu:
 - Teach Substitute (Pluck)
 - Repel
 
+![Hidden Revive](../../assets/revive-coronet.png)
+
 
 ## Hearthome City
 
@@ -476,7 +498,7 @@ Second room doors: &#9788; - &#9678; - &#9789; - &#9734; - &#9825;
     :::if{source="Starly" level=25 evolution=1 condition="speed=50-"}
       :info[You are slower]{color=blue}
     :::
-    ::damage[Wing Attack (Def)]{source="Starly" level=25 evolution=1 offensive=false opponentLevel=25 opponentStat=39 movePower=60 stab=true}
+    ::damage[Wing Attack at -1 (Def)]{source="Starly" level=25 evolution=1 offensive=false opponentLevel=25 opponentStat=39 movePower=60 stab=true opponentCombatStages=-1}
   :::::
   :::::pokemon[Buizel]
     - Has Quick Attack
@@ -774,7 +796,7 @@ Menu:
 - **Down to bag**
 - Heal
 - Rare Candy 43 -> 44
-:::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
 - Fist Plate
 :::
 
@@ -802,6 +824,7 @@ Menu:
 :::::::
 
 Menu:
+- Heal
 - Max Ether Close Combat
 
 **> Byron**
@@ -822,9 +845,13 @@ Menu:
     - Don't heal poison, full heal confusion
   :::::
   :::::pokemon[Bronzor]
+    - Close Combat
     :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
     ::damage[+1 Close Combat w/o Fist Plate]{source="Starly" level=46 evolution=2 offensive=true opponentStat=79 healthThreshold=100 movePower=120 stab=false combatStages=1}
     :::
+  :::::
+  :::::pokemon[Toxicroak]
+    - Return
   :::::
 :::::::
 
@@ -834,6 +861,8 @@ Menu:
 
 
 ## Verity Lake
+
+Remember **Porygon ability**
 
 :::::::trainer[Commander Mars]
   :::::pokemon[Golbat]
@@ -845,8 +874,9 @@ Menu:
     :::
   :::::
   :::::pokemon[Bronzor]
+    - Close Combat
     :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
-    ::damage[+1 Close Combat w/o Close Combat]{source="Starly" level=47 evolution=2 offensive=true opponentStat=86 healthThreshold=100 movePower=120 stab=false combatStages=1}
+    ::damage[+1 Close Combat w/o Fist Plate]{source="Starly" level=47 evolution=2 offensive=true opponentStat=86 healthThreshold=100 movePower=120 stab=false combatStages=1}
     :::
   :::::
   :::::pokemon[Purugly]
@@ -862,14 +892,17 @@ Menu:
 
 :::card{theme=neutral}
 #### Buy:
-- 21 Hyper Potions (Down 5)
-- 1-2 Revives if you have none (v)
+- 11 Hyper Potions (Down 5)
+- Revives if you have none (v)
 - 11 Full Heals (Down 6)
-- MAX Max Repel (Down 4)
+- 11 Max Repel (Down 4)
 
 **If Porygon's Ability is Trace:**
 - Grab Choice Specs from guy with sunglasses (only from 4:00AM - 9:59AM)
 :::
+
+
+## Route 211
 
 Menu:
 - **Down to Bag**
@@ -882,6 +915,7 @@ Menu:
 Grab Carbos in the grass (not hidden)
 - Effectively adds 2 IVs to Speed.
 :::
+
 
 ## Mt. Coronet
 
@@ -922,7 +956,7 @@ Menu:
 - Heal
 - Rare Candy 48 -> 50
 - Teach Rock Climb (vv)
-:::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
   - Silk Scarf
 :::
 
@@ -965,29 +999,6 @@ Menu:
   :::::
 :::::::
 
-![Galactic Key](../../assets/galactic-key.png)
-
-::::::trainer[Galactic Grunt (top)]
-  :::::pokemon[Croagunk]
-    - Return
-  :::::
-  :::::pokemon[Stunky, Glameow]
-    - Aerial Ace
-  :::::
-:::::::
-
-:::::::trainer[Galactic Grunt (bottom)]
-  :::::pokemon[Stunky]
-    - Aerial Ace
-  :::::
-  :::::pokemon[Croagunk]
-    - Return
-  :::::
-:::::::
-
-If -Attack, go into right portal and grab the Protein<br>
-Enter left portal
-
 :::::::trainer[Galactic Leader Cyrus]
   :::::pokemon[Sneasel]
     :::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
@@ -1006,8 +1017,6 @@ Enter left portal
     - Return
   :::::
 :::::::
-
-Grab the Full Restore after taking the Portal
 
 :::::::trainer[Commander Saturn]
   :::::if{source="Starly" condition="atk=(x / 10+ / 0+)" theme=neutral}
@@ -1042,37 +1051,11 @@ Grab the Full Restore after taking the Portal
 Menu at hiker spinner:
 - **Down to Bag**
 - Heal
-- Use Protein if grabbed
 - Max Repel
 
 ![Hidden Max Elixir](../../assets/max-elixir-coronet.png)
 ![Hidden Full Restore](../../assets/full-restore-coronet.png)
-
-:::::::trainer[Galactic 1]
-  :::::pokemon[Houndour, Glameow]
-     - Aerial Ace
-  :::::
-:::::::
-
 ![Hidden Rare Candy](../../assets/candy-coronet-top.png)
-
-:::::::trainer[Galactic 2]
-  :::::pokemon[Glameow]
-     - Aerial Ace
-  :::::
-  :::::pokemon[Golbar]
-     - Return
-  :::::
-:::::::
-
-:::::::trainer[Galactic 3]
-  :::::pokemon[Golbat, Croagunk]
-     - Return
-  :::::
-  :::::pokemon[Croagunk]
-     - Return
-  :::::
-:::::::
 
 :::::::trainer[Galactic Double]
   **Aerial Ace left side, Psybeam right side**
@@ -1139,7 +1122,7 @@ Menu at hiker spinner:
 :::::::
 
 Menu:
-- **If you did not fight Glameow Spinner outside of Pastoria**: Max repel
+- Max repel
 - Fly to Sandgem
 
 Talk to Rowan to unlock Sunyshore
@@ -1149,16 +1132,16 @@ Talk to Rowan to unlock Sunyshore
 
 :::::::trainer[Leader Volkner]
   :::::pokemon[Jolteon]
-    - Return
+    - Has Quick Attack
   :::::
   :::::pokemon[Raichu]
-    - X Attack + Return
+    - X Attack
+    - Has Quick Attack
   :::::
   :::::pokemon[Luxray]
-    - (Full Restore if Static'd) + Return
+    - Full Restore if Static'd
   :::::
   :::::pokemon[Electivire]
-    - Return
     ::damage[Quick Attack (Def)]{source="Starly" level=58 evolution=2 offensive=false opponentLevel=50 opponentStat=109 movePower=40 stab=false}
   :::::
 :::::::
@@ -1294,8 +1277,6 @@ Menu when Max Repel runs out:
 
 :::if{source="Starly" level=64 evolution=2 condition="speed=140-" theme=warning}
 Rare Candy x2 64 -> 66
-
-This messes with the damage calcs, but lets you actually beat Flint
 :::
 
 :::::::trainer[Elite Four Flint]
@@ -1319,6 +1300,7 @@ This messes with the damage calcs, but lets you actually beat Flint
 Menu:
 - **Rare Candy** 65 -> 67
 
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
 Bronzong 2HKO Range at Lv67 w/o Fist Plate (Attack):
 ```
 31 / 1- / x   		 181-182   		79.30%
@@ -1328,11 +1310,12 @@ x / 8-12 / x  	 	 187-189   		96.09%
 x / 13-15 / x   	 190-191   		98.83%
 x / 16+ / 0+   		 192-193   		100%
 ```
+:::
 
 :::::::trainer[Elite Four Lucian]
   :::::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
     :::pokemon[Mr. Mime]
-      - X Speed + (if Reflect: X Sp Def + Heal / Aerial Ace) + Return
+      - X Speed + (X Attack x2 + Fly)
     :::
   :::::
   :::::pokemon[Gallade]
@@ -1341,12 +1324,18 @@ x / 16+ / 0+   		 192-193   		100%
   :::::
   :::::pokemon[Bronzong]
     ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
+    :::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
+    ::damage[+2 Close Combat w/o Fist Plate]{source="Starly" level=67 evolution=2 offensive=true opponentStat=146 healthThreshold=152 movePower=120 stab=false combatStages=2}
+    ::damage[+3 Return]{source="Starly" level=67 evolution=2 offensive=true opponentStat=146 healthThreshold=152 movePower=122 stab=true effectiveness=0.5 combatStages=3}
+    :::
   :::::
 :::::::
 
 Menu:
 - Heal
-- Silk Scarf
+:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+  - Silk Scarf
+:::
 
 :::::::trainer[Champion Cythia]
   :::::pokemon[Spiritomb]
