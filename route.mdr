@@ -2389,7 +2389,7 @@ x / 16+ / 0+   		 192-193   		100%
       - Return
     :::
     :::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
-      - X Sp Def + X Speed + Heal / Aerial Ace + Return when Reflect is gone
+      - X Speed + (if Reflect: X Sp Def + Heal / Aerial Ace) + Return
     :::
   :::::
   :::::pokemon[Gallade]
