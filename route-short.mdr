@@ -1162,7 +1162,7 @@ Talk to Rowan to unlock Sunyshore
     - Full Restore if Static'd
   :::::
   :::::pokemon[Electivire]
-    ::damage[Quick Attack (Def)]{source="Starly" level=58 evolution=2 offensive=false opponentLevel=50 opponentStat=109 movePower=40 stab=false}
+    ::damage[Quick Attack (Def)]{source="Starly" level=58 evolution=2 offensive=false opponentLevel=50 opponentStat=129 movePower=40 stab=false}
   :::::
 :::::::
 
