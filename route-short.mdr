@@ -478,7 +478,6 @@ Menu:
 
 :::card{theme="warning"}
 - PC heal Staravia, Turtwig and Psyduck/Dork
-- Make sure Psyduck/Dork is slot 2
 - Deposit everything else
 :::
 
@@ -584,10 +583,6 @@ Menu at grass:
 
 ![Max Ether](../../assets/max-ether-215.png)
 ![Hidden Revive](../../assets/revive-215.png)
-
-:::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
-Pass the spinner and go through the grass
-:::
 
 :::::::if{source="Starly" condition="atk=~(x / 20+ / 0+)" theme=warning}
 ![Fist Plate](../../assets/fist-plate.png)
@@ -759,27 +754,39 @@ Menu:
 
 ## Celestic Town
 
-:::if{source="Starly" level=40 evolution=2 condition="speed=83-"}
-Menu:
-- Heal
-:::
-
-:::::::trainer[Galactic Leader Cyrus]
-  :::::pokemon[Sneasel]
-    :::if{source="Starly" level=40 evolution=2 condition="speed=83-"}
-       - X Speed
-    :::
-    - Close Combat or Return
-    ::damage[Return]{source="Starly" level=40 evolution=2 offensive=true opponentStat=57 healthThreshold=91 movePower=104 stab=true}
-  :::::
+:::::::::trainer[Galactic Leader Cyrus]
+  :::::::pokemon[Sneasel]
+    :::::if{source="Starly" level=40 evolution=2 condition="speed=83-"}
+      - X Speed
+    :::::
+    :::::if{source="Starly" condition="attack=(24- / x / x)"}
+      - X Attack + Return
+    :::::
+    :::::if{source="Starly" condition="attack=(25+ / 10- / x)"}
+      - Close Combat
+    :::::
+    :::if{source="Starly" condition="attack=(x / 11+ / 0+)"}
+      - Return
+    :::::
+    :::::if{source="Starly" level=40 evolution=2 condition="speed=83- || attack=(24- / x / x)"}
+    ::damage[Ice Punch at -1 (Def)]{source="Starly" level=40 evolution=2 offensive=false opponentLevel=34 opponentStat=79 movePower=75 stab=true effectiveness=2 opponentCombatStages=-1}
+    :::::
+  :::::::
   :::::pokemon[Golbat]
-    - Aerial Ace + Return
-    ::damage[Air Cutter (Sp Def)]{source="Starly" level=40 evolution=2 offensive=false opponentLevel=34 opponentStat=64 movePower=55 special=true stab=true}
-  :::::
-  :::::pokemon[Murkrow]
-    ::damage[Return]{source="Starly" level=41 evolution=2 offensive=true opponentStat=50 healthThreshold=100 movePower=104 stab=true}
-  :::::
-:::::::
+    :::::if{source="Starly" condition="attack=(24- / x / x)"}
+      - Return
+    :::::
+    :::::if{source="Starly" condition="attack=(25+ / 0+ / 0+)"}
+      - Aerial Ace + Return
+      :::if{source="Starly" condition="attack=(x / 11+ / 0+)"}
+      ::damage[Air Cutter (Sp Def)]{source="Starly" level=40 evolution=2 offensive=false opponentLevel=34 opponentStat=64 movePower=55 special=true stab=true}
+      :::
+      :::if{source="Starly" condition="attack=(25+ / 10- / x)"}
+      ::damage[Air Cutter (-1 Sp Def)]{source="Starly" level=40 evolution=2 offensive=false opponentLevel=34 opponentStat=64 movePower=55 special=true stab=true combatStages=-1}
+      :::
+    :::::
+  :::::::
+:::::::::
 
 Menu:
 - **Down to bag**
@@ -883,9 +890,6 @@ Menu:
     ::damage[+1 Close Combat w/o Fist Plate]{source="Starly" level=46 evolution=2 offensive=true opponentStat=79 healthThreshold=100 movePower=120 stab=false combatStages=1}
     :::
   :::::
-  :::::pokemon[Toxicroak]
-    - Return
-  :::::
 :::::::
 
 Menu:
@@ -895,7 +899,7 @@ Menu:
 
 ## Verity Lake
 
-Remember **Porygon ability**
+Remember **Porygon's ability**
 
 :::::::trainer[Commander Mars]
   :::::pokemon[Golbat]
@@ -979,7 +983,6 @@ Menu:
 ## Snowpoint Gym
 
 :::::::trainer[Leader Candice]
-  Hail does ~9 (10 if >= 160 max HP)
   :::::pokemon[Sneasel]
     :::if{source="Starly" level=50 evolution=2 condition="speed=116+"}
       - X Attack + X Acc
@@ -987,7 +990,8 @@ Menu:
     :::if{source="Starly" level=50 evolution=2 condition="speed=115-"}
       - X Speed + X Attack + X Acc
     :::
-    - Remember Ice Shard is a priority move
+    - You take (HP / 16, rounded down) * 3 damage from hail
+    ::damage[Ice Shard at -1 (Def)]{source="Starly" level=50 evolution=2 offensive=false opponentLevel=40 opponentStat=93 movePower=40 stab=true effectiveness=2 opponentCombatStages=-1}
   :::::
   :::::pokemon[Abomasnow, Piloswine]
     - Return
@@ -1043,9 +1047,6 @@ Menu:
       - X Attack + (Full Heal if confused)
     :::
   :::::
-  :::::pokemon[Honchkrow]
-    - Return
-  :::::
 :::::::
 
 :::::::trainer[Commander Saturn]
@@ -1069,9 +1070,6 @@ Menu:
       - Close Combat or Return x2
     ::damage[+1 Close Combat]{source="Starly" level=52 evolution=2 offensive=true opponentStat=87 healthThreshold=109 movePower=120 stab=false combatStages=1}
     :::
-  :::::
-  :::::pokemon[Toxicroak]
-    - Return
   :::::
 :::::::
 
@@ -1126,16 +1124,11 @@ Menu at hiker spinner:
 ## Distortion World
 
 :::::::trainer[Galactic Leader Cyrus]
-  :::::pokemon[Houndoom]
-    - Return
-  :::::
   :::::pokemon[Weavile]
-    :::if{source="Starly" level=54 evolution=2 condition="speed=140+"}
-      - Close Combat x2
-    :::
     :::if{source="Starly" level=54 evolution=2 condition="speed=139-"}
-      - X Speed + Close Combat
+      - X Speed
     :::
+    ::damage[Return]{source="Starly" level=54 evolution=2 offensive=true opponentStat=81 healthThreshold=139 movePower=122 stab=true}
   :::::
   :::::pokemon[Gyarados]
     :::if{source="Starly" level=55 evolution=2 condition="speed=152+"}
@@ -1145,9 +1138,6 @@ Menu at hiker spinner:
       - Swap + X Speed + X Attack + Return
     :::
     ::damage[Ice Fang at -1 (Def)]{source="Starly" level=55 evolution=2 offensive=false opponentLevel=46 opponentStat=133 movePower=65 stab=false effectiveness=2 opponentCombatStages=-1}
-  :::::
-  :::::pokemon[Honchkrow, Crobat]
-    - Return
   :::::
 :::::::
 
@@ -1328,9 +1318,9 @@ Rare Candy x2 64 -> 66
 :::::::
 
 Menu:
-- **Rare Candy** 65 -> 67
+- **Rare Candy x2** 65 -> 67
 
-:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+:::if{source="Starly" condition="atk=(0+ / 15- / x)"}
 Bronzong 2HKO Range at Lv67 w/o Fist Plate (Attack):
 ```
 31 / 1- / x   		 181-182   		79.30%
@@ -1363,7 +1353,7 @@ x / 16+ / 0+   		 192-193   		100%
 
 Menu:
 - Heal
-:::if{source="Starly" condition="atk=~(x / 20+ / 0+)"}
+:::if{source="Starly" condition="atk=(0+ / 15- / x)"}
   - Silk Scarf
 :::
 
