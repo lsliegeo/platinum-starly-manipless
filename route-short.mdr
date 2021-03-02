@@ -969,8 +969,15 @@ Menu:
 
 ## Route 217
 
+:::if{source="Starly" condition="attack=(14- / x / x)" theme=warning}
+![Hidden Protein](../../assets/protein-217.png)
+:::
+
 Menu:
 - Heal
+:::if{source="Starly" condition="attack=(14- / x / x)"}
+- Protein
+:::
 :::if{source="Starly" condition="speed=~(18- / x / x)"}
 - Rare Candy 48 -> 50
 :::
@@ -998,6 +1005,9 @@ Menu:
   :::::
   :::::pokemon[Froslass]
     - Fly
+    :::if{source="Starly" condition="attack=(7- / x / x)"}
+    ::damage[+1 Fly]{source="Starly" level=50 evs=41 evolution=2 offensive=true opponentStat=71 healthThreshold=128 movePower=90 stab=true combatStages=1}
+    :::
   :::::
 :::::::
 
@@ -1367,5 +1377,10 @@ Menu:
     - Close Combat
     ::damage[Extremespeed (Def)]{source="Starly" level=68 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
     ::damage[+2 Return]{source="Starly" level=68 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
+  :::::
+  :::::if{source="Starly" condition="attack=(11- / x / x)"}
+    :::pokemon[Garchomp]
+    ::damage[+2 Return]{source="Starly" level=68 evs=112 evolution=2 offensive=true opponentStat=141 healthThreshold=224 movePower=122 stab=true combatStages=2}
+    :::
   :::::
 :::::::
