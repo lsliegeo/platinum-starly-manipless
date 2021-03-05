@@ -1294,6 +1294,7 @@ Menu when Max Repel runs out:
   :::::
   :::::pokemon[Scizor]
     - Fly
+    ::damage[Quick Attack (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=49 opponentStat=105 movePower=40 stab=false}
   :::::
 :::::::
 
