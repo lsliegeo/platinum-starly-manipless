@@ -64,14 +64,14 @@
    58 -> 28, 60, 28, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
    59 -> 33, 63, 28, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
    60 -> 36, 74, 29, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
-   61 -> 36, 78, 30, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
-   62 -> 36, 86, 32, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
-   63 -> 38, 89, 35, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
-   64 -> 40, 96, 40, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
-   65 -> 40, 99, 42, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
-   66 -> 40, 99, 42, 87, 12, 105
-   67 -> 40, 99, 42, 87, 12, 105
-   68 -> 40, 102, 44, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+   61 -> 36, 74, 29, 70, 5, 99
+   62 -> 36, 74, 29, 70, 5, 99
+   63 -> 36, 78, 32, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z, tangrowth
+   64 -> 36, 87, 32, 78, 11, 102 # empoleon, gible, swablu, gabite, staraptor, floatzel, heracross, infernape
+   65 -> 38, 93, 35, 81, 12, 102 # snorlax, roserade, yanmega, drapion, vespiquen, heracross, scizor
+   66 -> 40, 96, 42, 83, 12, 102 # whiscash, golem, rhyperior, gliscor, hippowdon, houndoom
+   67 -> 40, 102, 42, 87, 14, 105 # infernape, magmortar, flareon, rapidash, mr. mime, gallade
+   68 -> 40, 103, 44, 95, 19, 105 # alakazam, espeon, bronzong, spiritomb, togekiss, lucario, milotic
 
 10:
    10 -> 0, 0, 0, 0, 0, 0
@@ -125,14 +125,14 @@
    58 -> 28, 60, 28, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
    59 -> 33, 63, 28, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
    60 -> 36, 74, 29, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
-   61 -> 36, 78, 30, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
-   62 -> 36, 86, 32, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
-   63 -> 38, 89, 35, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
-   64 -> 40, 96, 40, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
-   65 -> 40, 99, 42, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
-   66 -> 40, 99, 42, 87, 12, 105
-   67 -> 40, 99, 42, 87, 12, 105
-   68 -> 40, 102, 44, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+   61 -> 36, 74, 29, 70, 5, 99
+   62 -> 36, 74, 29, 70, 5, 99
+   63 -> 36, 78, 32, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z, tangrowth
+   64 -> 36, 87, 32, 78, 11, 102 # empoleon, gible, swablu, gabite, staraptor, floatzel, heracross, infernape
+   65 -> 38, 93, 35, 81, 12, 102 # snorlax, roserade, yanmega, drapion, vespiquen, heracross, scizor
+   66 -> 40, 96, 42, 83, 12, 102 # whiscash, golem, rhyperior, gliscor, hippowdon, houndoom
+   67 -> 40, 102, 42, 87, 14, 105 # infernape, magmortar, flareon, rapidash, mr. mime, gallade
+   68 -> 40, 103, 44, 95, 19, 105 # alakazam, espeon, bronzong, spiritomb, togekiss, lucario, milotic
 
 11:
    11 -> 0, 0, 0, 0, 0, 0
@@ -185,14 +185,14 @@
    58 -> 27, 60, 27, 65, 2, 99 # luxio, luxio, electabuzz, magneton, jolteon, raichu, luxray
    59 -> 32, 63, 27, 69, 5, 99 # electivire, mantyke, remoraid, mantine, blissey, glalie, magnezone
    60 -> 35, 74, 28, 70, 5, 99 # mamoswine, rampardos, mothim, clefable, torterra, machamp
-   61 -> 35, 78, 29, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z
-   62 -> 35, 86, 31, 77, 11, 101 # tangrowth, empoleon, gible, swablu, gabite, staraptor, floatzel, heracross
-   63 -> 37, 89, 34, 81, 12, 102 # infernape, snorlax, roserade, yanmega, drapion, vespiquen
-   64 -> 39, 96, 39, 81, 12, 102 # heracross, scizor, whiscash, golem, rhyperior, gliscor
-   65 -> 39, 99, 41, 87, 12, 105 # hippowdon, houndoom, infernape, magmortar, flareon, rapidash
-   66 -> 39, 99, 41, 87, 12, 105
-   67 -> 39, 99, 41, 87, 12, 105
-   68 -> 39, 102, 43, 94, 17, 105 # mr. mime, gallade, alakazam, espeon, bronzong, spiritomb, togekiss
+   61 -> 35, 74, 28, 70, 5, 99
+   62 -> 35, 74, 28, 70, 5, 99
+   63 -> 35, 78, 31, 74, 10, 99 # chimecho, absol, dusknoir, altaria, gabite, porygon-z, tangrowth
+   64 -> 35, 87, 31, 78, 11, 102 # empoleon, gible, swablu, gabite, staraptor, floatzel, heracross, infernape
+   65 -> 37, 93, 34, 81, 12, 102 # snorlax, roserade, yanmega, drapion, vespiquen, heracross, scizor
+   66 -> 39, 96, 41, 83, 12, 102 # whiscash, golem, rhyperior, gliscor, hippowdon, houndoom
+   67 -> 39, 102, 41, 87, 14, 105 # infernape, magmortar, flareon, rapidash, mr. mime, gallade
+   68 -> 39, 103, 43, 95, 19, 105 # alakazam, espeon, bronzong, spiritomb, togekiss, lucario, milotic
 :::
 
 # Pokemon Platinum Any% Manipless Glitchless Starly+
@@ -673,7 +673,7 @@ Grab Star piece near warehouse
 :::::::
 
 Menu:
-- Rare Candy x4 30 -> 34
+- Rare Candy 30 -> 34
 - Heal to full if not going for Machoke range
 
 :::::::trainer[Leader Maylene]
@@ -955,7 +955,10 @@ Menu:
 
 ## Mt. Coronet
 
+:::if{source="Starly" condition="speed=(18- / x / x)" theme=warning}
 ![Rare Candy](../../assets/candy-coronet-snow-1.png)
+:::
+
 ![Hidden Rare Candy](../../assets/candy-coronet-snow-2.png)
 
 :::::if{source="Starly" condition="speed=(18- / x / x)" theme=warning}
@@ -969,13 +972,17 @@ Menu:
 
 ## Route 217
 
-:::if{source="Starly" condition="attack=(14- / x / x)" theme=warning}
+:::if{source="Starly" condition="attack=(17- / x / x)" theme=warning}
 ![Hidden Protein](../../assets/protein-217.png)
+:::
+
+:::if{source="Starly" condition="speed=~(18- / x / x)"}
+![Rare Candy](../../assets/protein-217.png)
 :::
 
 Menu:
 - Heal
-:::if{source="Starly" condition="attack=(14- / x / x)"}
+:::if{source="Starly" condition="attack=(17- / x / x)"}
 - Protein
 :::
 :::if{source="Starly" condition="speed=~(18- / x / x)"}
@@ -1044,8 +1051,8 @@ Menu:
 :::::::
 
 :::::::trainer[Galactic Leader Cyrus]
-  :::::pokemon[Sneasel]
-    :::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
+  :::::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
+    :::pokemon[Sneasel]
       - X Speed
     :::
   :::::
@@ -1179,6 +1186,8 @@ Talk to Rowan to unlock Sunyshore
 
 ## Sunyshore City
 
+**Menu immediately after Jasmine**
+
 Menu:
 - Teach Waterfall (vv)
 - Max Repel
@@ -1191,97 +1200,23 @@ Menu when repel runs off:
 - Max Elixir
 - Max Repel
 
-:::::::trainer[Ace Trainer Mariah]
-  :::::pokemon[Blissey, Glalie]
-    - Return
-  :::::
-  :::::pokemon[Magnezone]
-    - Close Combat
-  :::::
-:::::::
-
 ![Hidden Rare Candy](../../assets/candy-victory-road.png)
 
-:::::::trainer[Ace Trainer Omar]
-  :::::pokemon[Mamoswine]
-    - Return
-  :::::
-  :::::pokemon[Rampardos]
-    - Close Combat
-  :::::
-  :::::pokemon[Mothim]
-    - Return
-  :::::
-:::::::
+Waste a few steps before Psychic trainer
 
-:::::::trainer[Ace Trainer Syndey]
-  :::::pokemon[Clefable]
-    - Return
-  :::::
-  :::::pokemon[Torterra]
-    - Fly
-  :::::
-:::::::
-
-:::::::trainer[Black Belt Miles]
-  :::::pokemon[Machamp]
-    - Return
-  :::::
-:::::::
-
-:::::::trainer[Psychic Valencia]
-  :::::pokemon[Chimecho]
-    - Return
-  :::::
-  :::::pokemon[Absol]
-    - Return
-    - Has Sucker Punch
-  :::::
-  :::::pokemon[Dusknoir]
-    - Aerial Ace x1-2
-    - Fly turn 2 if burned
-  :::::
-:::::::
-
-Menu when Max Repel runs out:
+Menu:
 - Max Repel
-- (Heal Burn)
-
-:::::::trainer[Dragon Tamer Ondrej]
-  :::::pokemon[Altaria, Gabite]
-    - Return
-  :::::
-:::::::
-
-:::::::trainer[Veteran Edgar]
-  **Order may vary**
-  ::::pokemon[Porygon-Z]
-    - Return
-  :::::
-  :::::pokemon[Empoleon]
-    - Close Combat
-  :::::
-  :::::pokemon[Tangrowth]
-    - Fly
-  :::::
-:::::::
-
-:::::::trainer[Dragon Tamer Clinton]
-  :::::pokemon[Gible, Swablu, Gabite]
-    - Return
-  :::::
-:::::::
-
+- **Rare Candy** 60 -> 62
 
 ## Indigo Plateau
 
 :::::::trainer[Rival Barry]
   :::::pokemon[Staraptor]
     - X Attack x2
-    ::damage[Close Combat at -1 (Def)]{source="Starly" level=61 evolution=2 offensive=false opponentLevel=48 opponentStat=131 movePower=120 stab=false opponentCombatStages=-1}
+    ::damage[Close Combat at -1 (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=48 opponentStat=131 movePower=120 stab=false opponentCombatStages=-1}
   :::::
   :::::pokemon[Floatzel]
-    ::damage[Aqua Jet (Def)]{source="Starly" level=61 evolution=2 offensive=false opponentLevel=47 opponentStat=114 movePower=40 stab=true}
+    ::damage[Aqua Jet (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=47 opponentStat=114 movePower=40 stab=true}
   :::::
 :::::::
 
@@ -1291,10 +1226,16 @@ Menu when Max Repel runs out:
 :::::::trainer[Elite Four Aaron]
   :::::pokemon[Yanmega]
     - X Attack + Aerial Ace
+    ::damage[Air Slash (Sp Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=49 opponentStat=146 movePower=75 special=true stab=true}
+  :::::
+  :::::if{source="Starly" condition="attack=(14- / x / x)"}
+    :::pokemon[Drapion]
+    ::damage[+1 Return]{source="Starly" level=64 evs=97 evolution=2 offensive=true opponentStat=137 healthThreshold=153 movePower=122 stab=true combatStages=1}
+    :::
   :::::
   :::::pokemon[Scizor]
     - Fly
-    ::damage[Quick Attack (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=49 opponentStat=105 movePower=40 stab=false}
+    ::damage[Quick Attack (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=49 opponentStat=105 movePower=40 stab=false}
   :::::
 :::::::
 
@@ -1302,20 +1243,16 @@ Menu when Max Repel runs out:
   :::::pokemon[Whiscash]
     - X Attack x2 + Return
     - You take (HP / 16, rounded down) * 4 damage from sandstorm
-    ::damage[Aqua Tail at -1 (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=50 opponentStat=98 movePower=90 stab=true opponentCombatStages=-1}
+    ::damage[Aqua Tail at -1 (Def)]{source="Starly" level=65 evolution=2 offensive=false opponentLevel=50 opponentStat=98 movePower=90 stab=true opponentCombatStages=-1}
   :::::
 :::::::
-
-:::if{source="Starly" level=64 evolution=2 condition="speed=140-" theme=warning}
-Rare Candy x2 64 -> 66
-:::
 
 :::::::trainer[Elite Four Flint]
   :::::pokemon[Houndoom]
     - X Attack + Return
     - Full Restore if burned
     - Remember if used Sunny Day
-    ::damage[Flamethrower (Sp Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=52 opponentStat=135 movePower=95 special=true stab=true}
+    ::damage[Flamethrower (Sp Def)]{source="Starly" level=65 evolution=2 offensive=false opponentLevel=52 opponentStat=135 movePower=95 special=true stab=true}
   :::::
   :::::pokemon[Rapidash]
     - (Full Restore if Burned) + Return
@@ -1324,12 +1261,9 @@ Rare Candy x2 64 -> 66
     - Return
     - If burned with Sunny Day: X Sp Def + Full Restore + Return
     - If burned without Sunny Day: Full Restore + Return
-    ::damage[Quick Attack (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=55 opponentStat=164 movePower=40 stab=false}
+    ::damage[Quick Attack (Def)]{source="Starly" level=65 evolution=2 offensive=false opponentLevel=55 opponentStat=164 movePower=40 stab=false}
   :::::
 :::::::
-
-Menu:
-- **Rare Candy x2** 65 -> 67
 
 :::if{source="Starly" condition="atk=(0+ / 15- / x)"}
 Bronzong 2HKO Range at Lv67 w/o Fist Plate (Attack):
@@ -1351,7 +1285,8 @@ x / 16+ / 0+   		 192-193   		100%
   :::::
   :::::pokemon[Gallade]
     - Fly
-    ::damage[Aerial Ace]{source="Starly" level=67 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=60 stab=true effectiveness=2}
+    ::damage[Aerial Ace]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=60 stab=true effectiveness=2}
+    ::damage[Return]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=122 stab=true}
   :::::
   :::::pokemon[Bronzong]
     ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
@@ -1376,12 +1311,12 @@ Menu:
   :::::
   :::::pokemon[Lucario]
     - Close Combat
-    ::damage[Extremespeed (Def)]{source="Starly" level=68 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
-    ::damage[+2 Return]{source="Starly" level=68 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
+    ::damage[Extremespeed (Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
+    ::damage[+2 Return]{source="Starly" level=67 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
   :::::
   :::::if{source="Starly" condition="attack=(11- / x / x)"}
     :::pokemon[Garchomp]
-    ::damage[+2 Return]{source="Starly" level=68 evs=112 evolution=2 offensive=true opponentStat=141 healthThreshold=224 movePower=122 stab=true combatStages=2}
+    ::damage[+2 Return]{source="Starly" level=68 evs=113 evolution=2 offensive=true opponentStat=141 healthThreshold=224 movePower=122 stab=true combatStages=2}
     :::
   :::::
 :::::::

@@ -180,6 +180,7 @@ mothim 46
 clefable 47
 torterra 48
 machamp 48
+force 62
 chimecho 44
 absol 45
 dusknoir 46
@@ -212,7 +213,6 @@ infernape 55
 magmortar 57
 flareon 55
 rapidash 53
-force 67
 mr. mime 53
 gallade 59
 alakazam 56
