@@ -16,7 +16,7 @@ roserade 22
 kadabra 20
 zubat 21
 skuntank 23
-nosepass 22 shared
+nosepass 22
 duskull 24
 haunter 24
 mismagius 26
@@ -24,8 +24,8 @@ staravia 25
 buizel 23
 monferno 27
 roselia 23
-bronzor 23 shared
-shieldon 23 shared
+bronzor 23
+shieldon 23
 heracross 25
 roselia 24
 lickitung 25

@@ -18,10 +18,10 @@
    24 -> 4, 1, 4, 22, 0, 9 # skuntank, nosepass
    25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
    26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
-   27 -> 4, 1, 6, 28, 2, 13 # monferno, roselia, bronzor, shieldon
-   28 -> 4, 3, 6, 30, 2, 13 # heracross, roselia
-   29 -> 8, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 8, 6, 7, 31, 2, 14 # croagunk, machoke
+   27 -> 4, 1, 4, 28, 2, 13 # monferno, roselia
+   28 -> 4, 3, 6, 30, 2, 13 # bronzor, shieldon, heracross, roselia
+   29 -> 6, 3, 7, 31, 2, 13 # lickitung, ralts, gligar
+   30 -> 8, 6, 7, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 8, 6, 7, 31, 2, 14
    32 -> 8, 6, 7, 31, 2, 14
    33 -> 8, 6, 7, 31, 2, 14
@@ -77,12 +77,12 @@
    22 -> 2, 1, 3, 20, 0, 8 # turtwig, cherrim, roserade
    23 -> 2, 1, 3, 22, 0, 8 # kadabra
    24 -> 4, 1, 4, 22, 0, 9 # zubat, skuntank, nosepass
-   25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
-   26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
-   27 -> 4, 1, 5, 28, 2, 13 # monferno, roselia, bronzor
-   28 -> 4, 3, 6, 30, 2, 13 # shieldon, heracross, roselia
-   29 -> 6, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel
-   30 -> 8, 6, 7, 31, 2, 14 # drifblim, croagunk, machoke
+   25 -> 4, 1, 4, 24, 1, 9 # duskull, haunter
+   26 -> 4, 1, 4, 25, 2, 11 # mismagius, staravia
+   27 -> 4, 1, 4, 28, 2, 13 # buizel, monferno, roselia
+   28 -> 4, 3, 6, 28, 2, 13 # bronzor, shieldon, heracross
+   29 -> 6, 3, 7, 31, 2, 13 # roselia, lickitung, ralts, gligar
+   30 -> 8, 6, 7, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 8, 6, 7, 31, 2, 14
    32 -> 8, 6, 7, 31, 2, 14
    33 -> 8, 6, 7, 31, 2, 14
@@ -137,12 +137,12 @@
    22 -> 1, 1, 2, 20, 0, 8 # cherrim, roserade
    23 -> 1, 1, 2, 22, 0, 8 # kadabra
    24 -> 3, 1, 3, 22, 0, 9 # zubat, skuntank, nosepass
-   25 -> 3, 1, 3, 25, 2, 9 # duskull, haunter, mismagius
-   26 -> 3, 1, 3, 25, 2, 12 # staravia, buizel
-   27 -> 3, 1, 4, 28, 2, 13 # monferno, roselia, bronzor
-   28 -> 3, 3, 5, 30, 2, 13 # shieldon, heracross, roselia
-   29 -> 7, 3, 6, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 7, 6, 6, 31, 2, 14 # croagunk, machoke
+   25 -> 3, 1, 3, 24, 1, 9 # duskull, haunter
+   26 -> 3, 1, 3, 25, 2, 11 # mismagius, staravia
+   27 -> 3, 1, 3, 28, 2, 13 # buizel, monferno, roselia
+   28 -> 3, 3, 5, 28, 2, 13 # bronzor, shieldon, heracross
+   29 -> 5, 3, 6, 31, 2, 13 # roselia, lickitung, ralts, gligar
+   30 -> 7, 6, 6, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 7, 6, 6, 31, 2, 14
    32 -> 7, 6, 6, 31, 2, 14
    33 -> 7, 6, 6, 31, 2, 14

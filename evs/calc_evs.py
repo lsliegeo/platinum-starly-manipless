@@ -3,7 +3,7 @@ from math import floor
 table_file = 'ev_table.csv'
 route_starts = [(9, 'routes/lvl_9.txt'), (10, 'routes/lvl_10.txt'), (11, 'routes/lvl_11.txt')]
 route_file = 'routes/post_mars.txt'
-output_file_name = 'route.mdr'
+output_file_name = 'route-short.mdr'
 
 debug = False
 

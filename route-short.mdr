@@ -30,10 +30,10 @@
    24 -> 4, 1, 4, 22, 0, 9 # skuntank, nosepass
    25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
    26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
-   27 -> 4, 1, 6, 28, 2, 13 # monferno, roselia, bronzor, shieldon
-   28 -> 4, 3, 6, 30, 2, 13 # heracross, roselia
-   29 -> 8, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 8, 6, 7, 31, 2, 14 # croagunk, machoke
+   27 -> 4, 1, 4, 28, 2, 13 # monferno, roselia
+   28 -> 4, 3, 6, 30, 2, 13 # bronzor, shieldon, heracross, roselia
+   29 -> 6, 3, 7, 31, 2, 13 # lickitung, ralts, gligar
+   30 -> 8, 6, 7, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 8, 6, 7, 31, 2, 14
    32 -> 8, 6, 7, 31, 2, 14
    33 -> 8, 6, 7, 31, 2, 14
@@ -89,12 +89,12 @@
    22 -> 2, 1, 3, 20, 0, 8 # turtwig, cherrim, roserade
    23 -> 2, 1, 3, 22, 0, 8 # kadabra
    24 -> 4, 1, 4, 22, 0, 9 # zubat, skuntank, nosepass
-   25 -> 4, 1, 4, 25, 2, 9 # duskull, haunter, mismagius
-   26 -> 4, 1, 4, 25, 2, 12 # staravia, buizel
-   27 -> 4, 1, 5, 28, 2, 13 # monferno, roselia, bronzor
-   28 -> 4, 3, 6, 30, 2, 13 # shieldon, heracross, roselia
-   29 -> 6, 3, 7, 31, 2, 14 # lickitung, ralts, gligar, buizel
-   30 -> 8, 6, 7, 31, 2, 14 # drifblim, croagunk, machoke
+   25 -> 4, 1, 4, 24, 1, 9 # duskull, haunter
+   26 -> 4, 1, 4, 25, 2, 11 # mismagius, staravia
+   27 -> 4, 1, 4, 28, 2, 13 # buizel, monferno, roselia
+   28 -> 4, 3, 6, 28, 2, 13 # bronzor, shieldon, heracross
+   29 -> 6, 3, 7, 31, 2, 13 # roselia, lickitung, ralts, gligar
+   30 -> 8, 6, 7, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 8, 6, 7, 31, 2, 14
    32 -> 8, 6, 7, 31, 2, 14
    33 -> 8, 6, 7, 31, 2, 14
@@ -149,12 +149,12 @@
    22 -> 1, 1, 2, 20, 0, 8 # cherrim, roserade
    23 -> 1, 1, 2, 22, 0, 8 # kadabra
    24 -> 3, 1, 3, 22, 0, 9 # zubat, skuntank, nosepass
-   25 -> 3, 1, 3, 25, 2, 9 # duskull, haunter, mismagius
-   26 -> 3, 1, 3, 25, 2, 12 # staravia, buizel
-   27 -> 3, 1, 4, 28, 2, 13 # monferno, roselia, bronzor
-   28 -> 3, 3, 5, 30, 2, 13 # shieldon, heracross, roselia
-   29 -> 7, 3, 6, 31, 2, 14 # lickitung, ralts, gligar, buizel, drifblim
-   30 -> 7, 6, 6, 31, 2, 14 # croagunk, machoke
+   25 -> 3, 1, 3, 24, 1, 9 # duskull, haunter
+   26 -> 3, 1, 3, 25, 2, 11 # mismagius, staravia
+   27 -> 3, 1, 3, 28, 2, 13 # buizel, monferno, roselia
+   28 -> 3, 3, 5, 28, 2, 13 # bronzor, shieldon, heracross
+   29 -> 5, 3, 6, 31, 2, 13 # roselia, lickitung, ralts, gligar
+   30 -> 7, 6, 6, 31, 2, 14 # buizel, drifblim, croagunk, machoke
    31 -> 7, 6, 6, 31, 2, 14
    32 -> 7, 6, 6, 31, 2, 14
    33 -> 7, 6, 6, 31, 2, 14
@@ -470,9 +470,6 @@ Menu:
 
 ![Hidden Revive](../../assets/revive-coronet.png)
 
-:::if{source="Starly" level=67 evolution=2 condition="speed=156-" theme=warning}
-![Hidden Stardust](../../assets/stardust-coronet.png)
-:::
 
 ## Hearthome City
 
@@ -561,8 +558,7 @@ Menu at grass:
 :::::::if{source="Starly" condition="atk=(x / 20+ / 0+)" theme=warning}
   :::::trainer[Collector Fernando]
     :::pokemon[Heracross]
-    ::damage[Brick Break (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=25 opponentStat=67 movePower=75 stab=true}
-    ::damage[Brick Break (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=25 opponentStat=67 movePower=75 stab=true}
+    ::damage[Brick Break (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=25 opponentStat=67 movePower=75 stab=true}
     :::
   :::::
 :::::::
@@ -572,12 +568,10 @@ Menu at grass:
 
 :::::::trainer[Ruin Maniac Calvin]
   :::::pokemon[Bronzor]
-    ::damage[Extrasensory (lvl 26) (Sp Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=16 movePower=80 special=true stab=true}
-    ::damage[Extrasensory (lvl 27) (Sp Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=16 movePower=80 special=true stab=true}
+    ::damage[Extrasensory (Sp Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=16 movePower=80 special=true stab=true}
   :::::
   :::::pokemon[Shieldon]
-    ::damage[Take Down (lvl 26) (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
-    ::damage[Take Down (lvl 27) (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
+    ::damage[Take Down (Def)]{source="Starly" level=27 evolution=1 offensive=false opponentLevel=23 opponentStat=24 movePower=90 stab=false}
   :::::
 :::::::
 
@@ -607,13 +601,11 @@ Menu at grass:
   :::::
   :::::pokemon[Buizel]
     - Buizel has Aqua Jet, and is always faster due to Swift Swim
-    ::damage[Aqua Jet (lvl 28) (Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=40 stab=true weatherBoosted=true}
-    ::damage[Aqua Jet (lvl 29) (Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=40 stab=true weatherBoosted=true}
+    ::damage[Aqua Jet (Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=24 opponentStat=37 movePower=40 stab=true weatherBoosted=true}
   :::::
   :::::pokemon[Drifblim]
     - Aftermath does ~19
-    ::damage[Gust (lvl 28) (Sp Def)]{source="Starly" level=28 evolution=1 offensive=false opponentLevel=25 opponentStat=51 movePower=40 special=true stab=true}
-    ::damage[Gust (lvl 29) (Sp Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=25 opponentStat=51 movePower=40 special=true stab=true}
+    ::damage[Gust (Sp Def)]{source="Starly" level=29 evolution=1 offensive=false opponentLevel=25 opponentStat=51 movePower=40 special=true stab=true}
   :::::
 :::::::
 
@@ -628,13 +620,7 @@ Grab Star piece near warehouse
 
 :::::card{theme=neutral}
 ### Sell:
-:::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
-- Honey
-- Star Piece x2
-:::
-:::if{source="Starly" level=67 evolution=2 condition="speed=157+"}
 - Star Piece
-:::
 - Calcium
 - Iron
 - PP Up
@@ -642,9 +628,6 @@ Grab Star piece near warehouse
 
 ### Buy:
    - 10 X Speeds
-  :::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
-  - **3 more X Attacks**
-  :::
   :::if{source="Starly" condition="atk=(x / 20+ / 0+)"}
    - 28 X Attacks (v) (when skipped Fist Plate)
   :::
@@ -733,13 +716,13 @@ Menu:
     :::if{source="Starly" level=38 evolution=2 condition="speed=96-"}
       - Swap + X Attack x2 + X Speed
     :::
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=100 stab=true combatStages=1}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=69 healthThreshold=111 movePower=84 stab=true combatStages=1 otherPowerModifier=1.2}
   :::::
   :::::pokemon[Floatzel]
     ::damage[Aqua Jet (Def)]{source="Starly" level=38 evolution=2 offensive=false opponentLevel=37 opponentStat=97 movePower=40 stab=true}
   :::::
   :::::pokemon[Quagsire]
-    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=100 stab=true combatStages=1}
+    ::damage[+1 Return]{source="Starly" level=38 evolution=2 offensive=true opponentStat=68 healthThreshold=114 movePower=84 stab=true combatStages=1 otherPowerModifier=1.2}
   :::::
 :::::::
 
@@ -948,7 +931,7 @@ Menu:
 - (Choice Specs)
 - Max Repel
 
-:::if{source="Starly" condition="speed=(13- / x / x)" theme=warning}
+:::if{source="Starly" condition="speed=(13- / x / x) || (speed=(x / 0 / x) && attack=(0+ / x / x))" theme=warning}
 ![Carbos](../../assets/carbos-211.png)
 :::
 
@@ -972,17 +955,23 @@ Menu:
 
 ## Route 217
 
-:::if{source="Starly" condition="attack=(17- / x / x)" theme=warning}
+:::if{source="Starly" condition="attack=(16- / x / x)" theme=warning}
+Froslass is guaranteed at 10+<br>
+Drapion is guaranteed at 17+<br>
+Garchomp is guaranteed at 14+<br>
 ![Hidden Protein](../../assets/protein-217.png)
 :::
 
 :::if{source="Starly" condition="speed=~(18- / x / x)"}
-![Rare Candy](../../assets/protein-217.png)
+![Rare Candy](../../assets/candy-217.png)
 :::
 
 Menu:
 - Heal
-:::if{source="Starly" condition="attack=(17- / x / x)"}
+:::if{source="Starly" condition="speed=(x / 0 / x) && attack=(0+ / x / x)"}
+- Carbos
+:::
+:::if{source="Starly" condition="attack=(16- / x / x)"}
 - Protein
 :::
 :::if{source="Starly" condition="speed=~(18- / x / x)"}
@@ -1012,8 +1001,8 @@ Menu:
   :::::
   :::::pokemon[Froslass]
     - Fly
-    :::if{source="Starly" condition="attack=(7- / x / x)"}
-    ::damage[+1 Fly]{source="Starly" level=50 evs=41 evolution=2 offensive=true opponentStat=71 healthThreshold=128 movePower=90 stab=true combatStages=1}
+    :::if{source="Starly" condition="attack=(9- / x / x)"}
+    ::damage[+1 Fly w/o Protein]{source="Starly" level=50 evs=32 evolution=2 offensive=true opponentStat=71 healthThreshold=128 movePower=90 stab=true combatStages=1}
     :::
   :::::
 :::::::
@@ -1026,21 +1015,6 @@ Menu:
 - Fly to Veilstone
 
 
-:::::if{source="Starly" condition="speed=(7- / x / x)" theme=warning}
-## Veilstone City
-
-2nd floor, middle vendor
-### Buy:
-:::if{source="Starly" condition="speed=(7-8 / x / x)"}
-- 1 Carbos (Down 4)
-:::
-:::if{source="Starly" condition="speed=(4-6 / x / x)"}
-- 2 Carbos (Down 4)
-
-**Use Carbos right away**
-:::::
-
-
 ## Galactic Warehouse
 
 :::::::trainer[Galactic 1]
@@ -1049,6 +1023,14 @@ Menu:
     - Aerial Ace if 2 or less Return PP
   :::::
 :::::::
+
+:::if{source="Starly" condition="attack=(11- / x / x)" theme=warning}
+Right portal<br>
+Drapion is guaranteed at 15+<br>
+Garchomp is guaranteed at 12+<br>
+(assuming you got the other protein)<br>
+![Hidden Protein](../../assets/protein-galactic-hq.png)
+:::
 
 :::::::trainer[Galactic Leader Cyrus]
   :::::if{source="Starly" level=51 evolution=2 condition="speed=119-"}
@@ -1071,7 +1053,7 @@ Menu:
     *High attack strat*
     :::pokemon[Golbat]
       - Return
-    ::damage[+0 Return]{source="Starly" level=52 evolution=2 offensive=true opponentStat=80 healthThreshold=125 movePower=122 stab=true}
+    ::damage[+0 Return]{source="Starly" level=52 evolution=2 offensive=true opponentStat=80 healthThreshold=125 movePower=102 stab=true otherPowerModifier=1.2}
     :::
     :::pokemon[Bronzor]
       - Return + (Full Heal if confused) + Return
@@ -1096,6 +1078,9 @@ Menu:
 Menu at hiker spinner:
 - **Down to Bag**
 - Heal
+:::if{source="Starly" condition="attack=(11- / x / x)"}
+- Protein
+:::
 - Max Repel
 
 ![Hidden Max Elixir](../../assets/max-elixir-coronet.png)
@@ -1145,7 +1130,7 @@ Menu at hiker spinner:
     :::if{source="Starly" level=54 evolution=2 condition="speed=139-"}
       - X Speed
     :::
-    ::damage[Return]{source="Starly" level=54 evolution=2 offensive=true opponentStat=81 healthThreshold=139 movePower=122 stab=true}
+    ::damage[Return]{source="Starly" level=54 evolution=2 offensive=true opponentStat=81 healthThreshold=139 movePower=102 stab=true otherPowerModifier=1.2}
   :::::
   :::::pokemon[Gyarados]
     :::if{source="Starly" level=55 evolution=2 condition="speed=152+"}
@@ -1192,6 +1177,14 @@ Menu:
 - Teach Waterfall (vv)
 - Max Repel
 
+:::card{theme=warning}
+
+If dead to 2x this attack at lvl 64:
+::damage[Air Slash (Sp Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=49 opponentStat=146 movePower=75 special=true stab=true}
+
+![Rare Candy](../../assets/candy-223.png)
+:::
+
 
 ## Victory Road
 
@@ -1206,17 +1199,17 @@ Waste a few steps before Psychic trainer
 
 Menu:
 - Max Repel
-- **Rare Candy** 60 -> 62
+- **Rare Candy**
 
 ## Indigo Plateau
 
 :::::::trainer[Rival Barry]
   :::::pokemon[Staraptor]
     - X Attack x2
-    ::damage[Close Combat at -1 (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=48 opponentStat=131 movePower=120 stab=false opponentCombatStages=-1}
+    ::damage[Close Combat at -1 (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=48 opponentStat=131 movePower=120 stab=false opponentCombatStages=-1}
   :::::
   :::::pokemon[Floatzel]
-    ::damage[Aqua Jet (Def)]{source="Starly" level=63 evolution=2 offensive=false opponentLevel=47 opponentStat=114 movePower=40 stab=true}
+    ::damage[Aqua Jet (Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=47 opponentStat=114 movePower=40 stab=true}
   :::::
 :::::::
 
@@ -1228,9 +1221,9 @@ Menu:
     - X Attack + Aerial Ace
     ::damage[Air Slash (Sp Def)]{source="Starly" level=64 evolution=2 offensive=false opponentLevel=49 opponentStat=146 movePower=75 special=true stab=true}
   :::::
-  :::::if{source="Starly" condition="attack=(14- / x / x)"}
+  :::::if{source="Starly" condition="attack=(16- / x / x)"}
     :::pokemon[Drapion]
-    ::damage[+1 Return]{source="Starly" level=64 evs=97 evolution=2 offensive=true opponentStat=137 healthThreshold=153 movePower=122 stab=true combatStages=1}
+    ::damage[+1 Return w/o Protein]{source="Starly" level=64 evs=88 evolution=2 offensive=true opponentStat=137 healthThreshold=153 movePower=102 stab=true combatStages=1 otherPowerModifier=1.2}
     :::
   :::::
   :::::pokemon[Scizor]
@@ -1249,6 +1242,9 @@ Menu:
 
 :::::::trainer[Elite Four Flint]
   :::::pokemon[Houndoom]
+    :::if{source="Starly" level=67 evolution=2 condition="speed=156-" theme=warning}
+      - Check X Attack count
+    :::
     - X Attack + Return
     - Full Restore if burned
     - Remember if used Sunny Day
@@ -1265,41 +1261,47 @@ Menu:
   :::::
 :::::::
 
-:::if{source="Starly" condition="atk=(0+ / 15- / x)"}
+:::if{source="Starly" condition="atk=(0+ / 14- / x)"}
 Bronzong 2HKO Range at Lv67 w/o Fist Plate (Attack):
 ```
-31 / 1- / x   		 181-182   		79.30%
-x / 2-4 / x   		 183-184   		86.72%
-x / 5-7 / x   		 185-186   		91.80%
-x / 8-12 / x  	 	 187-189   		96.09%
-x / 13-15 / x   	 190-191   		98.83%
-x / 16+ / 0+   		 192-193   		100%
+30+ / 0 / x   		 181-182   		79.30%
+x / 1-3 / x   		 183-184   		86.72%
+x / 4-6 / x   		 185-186   		91.80%
+x / 7-11 / x  	 	 187-189   		96.09%
+x / 12-14 / x   	 190-191   		98.83%
+x / 15+ / 0+   		 192-193   		100%
 ```
 :::
 
 :::::::trainer[Elite Four Lucian]
-  :::::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
+  :::::if{source="Starly" level=67 evolution=2 condition="speed=156- && attack=(x / 0+ / 0+)"}
     :::pokemon[Mr. Mime]
-      - X Speed + (X Attack x2 + Fly)
+      - **X Speed**
+      - (X Attack + Return + Fly Gallade)
+        - *See Gallade range*
+      - (X Sp Def + Aerial Ace + Heal + Return)
+      - (Fly + Heal + Aerial Ace)
     :::
   :::::
   :::::pokemon[Gallade]
     - Fly
+    :::if{source="Starly" level=67 evolution=2 condition="speed=156- && attack=(x / 0+ / 0+)"}
+      ::damage[+1 Fly w/ Reflect]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=90 stab=true effectiveness=2 combatStages=1 screen=true}
+    :::
+    ::damage[Return]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=102 stab=true otherPowerModifier=1.2}
     ::damage[Aerial Ace]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=60 stab=true effectiveness=2}
-    ::damage[Return]{source="Starly" level=66 evolution=2 offensive=true opponentStat=99 healthThreshold=166 movePower=122 stab=true}
   :::::
   :::::pokemon[Bronzong]
-    ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
-    :::if{source="Starly" level=67 evolution=2 condition="speed=156-"}
-    ::damage[+2 Close Combat w/o Fist Plate]{source="Starly" level=67 evolution=2 offensive=true opponentStat=146 healthThreshold=152 movePower=120 stab=false combatStages=2}
-    ::damage[+3 Return]{source="Starly" level=67 evolution=2 offensive=true opponentStat=146 healthThreshold=152 movePower=122 stab=true effectiveness=0.5 combatStages=3}
+    :::if{source="Starly" level=67 evolution=2 condition="speed=156- && attack=(x / 0+ / 0+)"}
+      - At +1: Aerial Ace + Close Combat
     :::
+    ::damage[Psychic (-1 Sp Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=54 opponentStat=106 movePower=95 special=true stab=true combatStages=-1}
   :::::
 :::::::
 
 Menu:
 - Heal
-:::if{source="Starly" condition="atk=(0+ / 15- / x)"}
+:::if{source="Starly" condition="atk=(0+ / 14- / x)"}
   - Silk Scarf
 :::
 
@@ -1312,11 +1314,11 @@ Menu:
   :::::pokemon[Lucario]
     - Close Combat
     ::damage[Extremespeed (Def)]{source="Starly" level=67 evolution=2 offensive=false opponentLevel=60 opponentStat=155 movePower=80 stab=false}
-    ::damage[+2 Return]{source="Starly" level=67 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=122 stab=true effectiveness=0.5 combatStages=2}
+    ::damage[+2 Return]{source="Starly" level=67 evolution=2 offensive=true opponentStat=107 healthThreshold=172 movePower=102 stab=true effectiveness=0.5 combatStages=2 otherPowerModifier=1.2}
   :::::
-  :::::if{source="Starly" condition="attack=(11- / x / x)"}
+  :::::if{source="Starly" condition="attack=(13- / x / x)"}
     :::pokemon[Garchomp]
-    ::damage[+2 Return]{source="Starly" level=68 evs=113 evolution=2 offensive=true opponentStat=141 healthThreshold=224 movePower=122 stab=true combatStages=2}
+    ::damage[+2 Return w/o Protein]{source="Starly" level=68 evs=104 evolution=2 offensive=true opponentStat=141 healthThreshold=224 movePower=102 stab=true combatStages=2 otherPowerModifier=1.2}
     :::
   :::::
 :::::::
