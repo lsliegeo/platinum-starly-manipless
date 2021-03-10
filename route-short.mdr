@@ -258,6 +258,9 @@ Second optional
 
 :::::::trainer[Leader Roark]
   :::::pokemon[Cranidos]
+    - 43 (63) HP
+    ::damage[Razor Leaf]{source="Turtwig" level=13 offensive=true opponentStat=17 movePower=55 stab=true effectiveness=2} 
+    ::damage[Absorb]{source="Turtwig" level=13 offensive=true opponentStat=14 movePower=20 stab=true effectiveness=2 special=true} 
     ::damage[Headbutt (Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false}
     ::damage[Headbutt (-1 Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false combatStages=-1}
     ::damage[Headbutt (-2 Def)]{source="Turtwig" level=13 offensive=false opponentLevel=14 opponentStat=40 movePower=70 stab=false combatStages=-2}
@@ -389,7 +392,7 @@ Menu:
 
 :::::::trainer[Leader Gardenia]
   :::::pokemon[Turtwig]
-    - Pluck + (Stall x3) + Pluck
+    - Pluck + (Quick Attack x2 + Pluck) + Pluck
   :::::
   :::::pokemon[Cherrim]
     :::if{source="Starly" level=21 evolution=1 condition="spe=41+"}
@@ -401,7 +404,8 @@ Menu:
   :::::
   :::::pokemon[Roserade]
     :::if{source="Starly" condition="atk=(x / 17+ / 3+)"}
-      - Pluck + Quick Attack will always kill
+      - Pluck + Quick Attack will always kill ?????
+      - (x / 31 / 17+)
     :::
     :info[Roserade will always outspeed you]{color=blue}
     ::damage[Magical Leaf (Sp Def)]{source="Starly" level=21 evolution=1 offensive=false opponentLevel=22 opponentStat=61 movePower=60 special=true stab=true effectiveness=0.5}
@@ -527,7 +531,7 @@ Second room doors: &#9788; - &#9678; - &#9789; - &#9734; - &#9825;
     ::damage[Water Gun (Sp Def)]{source="Starly" level=25 evolution=1 offensive=false opponentLevel=23 opponentStat=33 movePower=40 special=true stab=true}
   :::::
   :::::pokemon[Monferno]
-    :::if{source="Starly" condition="atk=(x / 24+ / 8+)"}
+    :::if{source="Starly" condition="atk=(x / 16+ / 0+)"}
       - Wing Attack + Quick Attack will always kill
     :::
     :::if{source="Starly" level=26 evolution=1 condition="speed=51+"}
@@ -536,10 +540,12 @@ Second room doors: &#9788; - &#9678; - &#9789; - &#9734; - &#9825;
     :::if{source="Starly" level=26 evolution=1 condition="speed=50-"}
       :info[You are slower]{color=blue}
     :::
+    ::damage[Wing Attack into Blaze]{source="Starly" level=26 evolution=1 offensive=true opponentStat=34 healthThreshold=52 movePower=60 stab=true effectiveness=2}
     ::damage[Mach Punch (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=40 stab=true}
     ::damage[Mach Punch at -1 (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=40 stab=true opponentCombatStages=-1}
+    ::damage[Flame Wheel (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true}
+    ::damage[Flame Wheel at +1 (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true torrent=true}
     ::damage[Flame Wheel at -1 (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true opponentCombatStages=-1}
-    ::damage[Flame Wheel at -1 in Blaze (Def)]{source="Starly" level=26 evolution=1 offensive=false opponentLevel=27 opponentStat=48 movePower=60 stab=true opponentCombatStages=-1 torrent=true}
   :::::
 :::::::
 
